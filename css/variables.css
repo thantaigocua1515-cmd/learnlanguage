@@ -1,0 +1,105 @@
+/**
+ * LingoLearning - CSS Design Tokens & Theming
+ * Strictly using CSS Variables & modern Gamification style
+ */
+
+:root {
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* German Gender Specific Colors (MANDATORY REQUIREMENT) */
+  --gender-der: #2563eb;        /* Masculine: Blue */
+  --gender-der-bg: #eff6ff;
+  --gender-der-border: #93c5fd;
+  --gender-der-shadow: #1d4ed8;
+
+  --gender-die: #e11d48;        /* Feminine: Coral Red */
+  --gender-die-bg: #fff1f2;
+  --gender-die-border: #fda4af;
+  --gender-die-shadow: #be123c;
+
+  --gender-das: #16a34a;        /* Neuter: Green */
+  --gender-das-bg: #f0fdf4;
+  --gender-das-border: #86efac;
+  --gender-das-shadow: #15803d;
+
+  /* Gamification Brand Accents */
+  --brand-primary: #3b82f6;
+  --brand-primary-hover: #2563eb;
+  --brand-primary-shadow: #1d4ed8;
+
+  --xp-gold: #f59e0b;
+  --xp-gold-shadow: #d97706;
+  --streak-orange: #f97316;
+  --streak-orange-shadow: #ea580c;
+  --heart-red: #ef4444;
+  --heart-red-shadow: #dc2626;
+
+  /* Theme: Light (Clean White & Soft Slate Surfaces) */
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #ffffff;
+  --bg-surface-subtle: #f1f5f9;
+  
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-inverse: #ffffff;
+
+  --border-subtle: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --divider-color: #f1f5f9;
+
+  /* Shadows & 3D Gamification */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-3d-btn: 0 4px 0;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Level Colors */
+  --level-a1: #10b981;
+  --level-a2: #06b6d4;
+  --level-b1: #3b82f6;
+  --level-b2: #8b5cf6;
+  --level-c1: #ec4899;
+  --level-c2: #f59e0b;
+}
+
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  --bg-app: #090d16;
+  --bg-surface: #111827;
+  --bg-surface-elevated: #1f2937;
+  --bg-surface-subtle: #1e293b;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  --text-inverse: #0f172a;
+
+  --border-subtle: #1e293b;
+  --border-strong: #334155;
+  --divider-color: #1e293b;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.6);
+
+  /* Preserve vibrant German gender tones with dark-mode adjusted backgrounds */
+  --gender-der-bg: #1e3a8a33;
+  --gender-der-border: #1d4ed8;
+  
+  --gender-die-bg: #88133733;
+  --gender-die-border: #be123c;
+  
+  --gender-das-bg: #064e3b33;
+  --gender-das-border: #15803d;
+}
+

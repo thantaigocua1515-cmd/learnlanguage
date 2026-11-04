@@ -1,0 +1,282 @@
+/**
+ * LingoLearning - Mini-Games & Interactive Learning CSS
+ * Tactile, animated, engaging gamification UI
+ */
+
+/* ==============================================================================
+   GAME ARENA WRAPPER
+   ============================================================================== */
+.game-container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.game-progress-bar-wrap {
+  flex-grow: 1;
+  height: 14px;
+  background-color: var(--border-subtle);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  position: relative;
+}
+
+.game-progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #059669);
+  border-radius: var(--radius-pill);
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+}
+
+.game-score-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--xp-gold);
+}
+
+/* ==============================================================================
+   GAME 1: DER / DIE / DAS SPEED SORTER
+   ============================================================================== */
+.sorter-card {
+  background-color: var(--bg-surface);
+  border: 2px solid var(--border-strong);
+  border-radius: var(--radius-xl);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 2rem;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.sorter-card.correct-anim {
+  animation: pulse-green 0.4s ease;
+  border-color: #10b981;
+}
+
+.sorter-card.wrong-anim {
+  animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  border-color: #ef4444;
+}
+
+.sorter-word {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.sorter-ipa {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-family: monospace;
+  margin-bottom: 0.75rem;
+}
+
+.sorter-meaning {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.sorter-plural {
+  display: inline-block;
+  background-color: var(--bg-surface-subtle);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+/* Buttons grid for Der / Die / Das */
+.article-btn-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.btn-article {
+  height: 72px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.btn-article .key-hint {
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+}
+
+/* ==============================================================================
+   GAME 2: WORD SCRAMBLE / ANAGRAM
+   ============================================================================== */
+.scramble-clue-box {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.scramble-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  min-height: 56px;
+  margin-bottom: 2rem;
+  padding: 8px;
+  background-color: var(--bg-surface-subtle);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--border-strong);
+}
+
+.scramble-slot {
+  width: 48px;
+  height: 54px;
+  border-bottom: 3px solid var(--border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.letter-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.letter-tile {
+  width: 50px;
+  height: 56px;
+  background-color: var(--bg-surface);
+  border: 2px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 0 var(--border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s ease;
+}
+
+.letter-tile:hover {
+  border-color: var(--brand-primary);
+  box-shadow: 0 4px 0 var(--brand-primary-shadow);
+  color: var(--brand-primary);
+}
+
+.letter-tile:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--border-strong);
+}
+
+.letter-tile.used {
+  opacity: 0.3;
+  pointer-events: none;
+  transform: scale(0.9);
+  box-shadow: none;
+  border-color: var(--border-subtle);
+}
+
+/* ==============================================================================
+   GAME 3: FLASHCARDS 3D FLIP (SRS)
+   ============================================================================== */
+.flashcard-scene {
+  perspective: 1000px;
+  width: 100%;
+  height: 380px;
+  margin: 0 auto 2rem auto;
+}
+
+.flashcard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flashcard.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-xl);
+  border: 2px solid var(--border-strong);
+  background: var(--bg-surface);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background-color: var(--bg-surface-elevated);
+}
+
+.srs-rating-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* ==============================================================================
+   ANIMATIONS
+   ============================================================================== */
+@keyframes shake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(4px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-6px, 0, 0); }
+  40%, 60% { transform: translate3d(6px, 0, 0); }
+}
+
+@keyframes pulse-green {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5); }
+  50% { transform: scale(1.03); box-shadow: 0 0 0 16px rgba(16, 185, 129, 0); }
+  100% { transform: scale(1); }
+}
+
