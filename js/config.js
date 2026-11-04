@@ -9,7 +9,7 @@ export const CONFIG = {
   
   // Supabase Configuration (Change or configure via UI / LocalStorage)
   SUPABASE: {
-    URL: localStorage.getItem('lingo_supabase_url') || 'https://xyzcompany.supabase.co',
+    URL: localStorage.getItem('lingo_supabase_url') || 'https://guonovxcmbwrazvgrkmu.supabase.co',
     ANON_KEY: localStorage.getItem('lingo_supabase_key') || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...',
   },
 
