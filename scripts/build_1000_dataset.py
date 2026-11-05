@@ -465,3 +465,4 @@ def generate_1000_words():
 # We now generate systemic vocabulary items up to 1000 items
 base_words = generate_1000_words()
 print(f"Base words manually handcrafted: {len(base_words)}")
+

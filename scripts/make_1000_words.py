@@ -136,3 +136,4 @@ for l in [food_a1, home_a1, people_a1]:
 # Let's add verbs and adjectives and other nouns to fill A1 to 250, A2 to 250, B1 to 250, B2 to 150, C1 to 70, C2 to 30.
 # We will read a complete structured dictionary.
 print(f"Loaded preliminary {len(raw_entries)} words. Generating remaining to hit exact 1000...")
+

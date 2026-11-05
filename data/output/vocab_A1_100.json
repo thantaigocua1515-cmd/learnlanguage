@@ -1,0 +1,5294 @@
+[
+  {
+    "lemma": "ab",
+    "level": "A1",
+    "pos": "prep",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ap",
+    "meaning_en": "beginning at that time or location; from",
+    "meaning_vi": null,
+    "forms": [
+      "ab"
+    ],
+    "examples": [
+      {
+        "de": "Hauen wir ab von hier, die Bullen kommen.",
+        "vi": "Mau rời khỏi đây. Cảnh sát tới bây giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 527
+      },
+      {
+        "de": "Diese Gesetze zielen auf den Schutz der Umwelt ab.",
+        "vi": "Mục đích của những luật này là để bảo vệ môi trường.",
+        "source": "tatoeba",
+        "tatoeba_id": 13917833
+      },
+      {
+        "de": "„Schließ die Tür ab!“ – „Die ist schon abgeschlossen.“",
+        "vi": "\"Khoá cửa vào!\" \"Cửa khoá rồi.\"",
+        "source": "tatoeba",
+        "tatoeba_id": 13728541
+      },
+      {
+        "de": "Wisch deine Augen ab.",
+        "vi": "Lau mắt đi.",
+        "source": "tatoeba",
+        "tatoeba_id": 12503752
+      },
+      {
+        "de": "Biegt an der zweiten Ampel links ab!",
+        "vi": "Rẽ trái ở đèn giao thông thứ hai.",
+        "source": "tatoeba",
+        "tatoeba_id": 12282662
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Abend",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Abende",
+    "ipa": "ˈaːbənt",
+    "meaning_en": "evening; the time from dusk until midnight; The west",
+    "meaning_vi": null,
+    "forms": [
+      "Abend",
+      "Abende",
+      "Abenden",
+      "Abends"
+    ],
+    "examples": [
+      {
+        "de": "Die Sitzung heute abend wurde aufgrund unvorhergesehener Umstände bis auf weiteres abgesagt.",
+        "vi": "Vì những tình huống đột ngột, buổi hội nghị tối nay sẽ bị hủy bỏ cho đến khi có thông báo tiếp theo.",
+        "source": "tatoeba",
+        "tatoeba_id": 11668500
+      },
+      {
+        "de": "Ich mag es, am Abend Fremdsprachen zu lernen.",
+        "vi": "Tôi thích học ngoại ngữ vào mỗi buổi tối.",
+        "source": "tatoeba",
+        "tatoeba_id": 14004896
+      },
+      {
+        "de": "Was machen wir heute abend?",
+        "vi": "Chúng ta sẽ làm gì tôi nay nào?",
+        "source": "tatoeba",
+        "tatoeba_id": 13628804
+      },
+      {
+        "de": "Ich esse mit meinem Mann zu Abend.",
+        "vi": "Tôi đang ăn tối với chồng.",
+        "source": "tatoeba",
+        "tatoeba_id": 12527980
+      },
+      {
+        "de": "Wir essen zusammen zu Abend.",
+        "vi": "Chúng tôi ăn tối với nhau.",
+        "source": "tatoeba",
+        "tatoeba_id": 12123719
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aber",
+    "level": "A1",
+    "pos": "conj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaːbɐ",
+    "meaning_en": "again; rather; quite; unusually; used with adjectives to express a surprising degree, whether this surprise be real or for effect; nonetheless, nevertheless",
+    "meaning_vi": null,
+    "forms": [
+      "aber"
+    ],
+    "examples": [
+      {
+        "de": "Das Leben ist hart, aber ich bin härter.",
+        "vi": "Cuộc sống thì khó khăn đấy, nhưng tôi mạnh mẽ hơn nó nhiều.",
+        "source": "tatoeba",
+        "tatoeba_id": 279
+      },
+      {
+        "de": "Ich akzeptiere, aber nur unter einer Bedingung.",
+        "vi": "Tôi chấp nhận, nhưng có một điều kiện.",
+        "source": "tatoeba",
+        "tatoeba_id": 636
+      },
+      {
+        "de": "Aber das hast du mir ja nie gesagt!",
+        "vi": "Nhưng bạn chưa nói tôi về chuyện này mà!",
+        "source": "tatoeba",
+        "tatoeba_id": 821
+      },
+      {
+        "de": "Das Winterchaos macht mich verrückt, aber bald sind ja Ferien.",
+        "vi": "Sự hỗn luạn của mùa đông làm tôi muốn phát điên, cũng may mà kì nghí đông sắp đến rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 1189736
+      },
+      {
+        "de": "Ich bin Schüler, aber er nicht.",
+        "vi": "Tôi là học sinh, nhưng anh ấy thì không phải.",
+        "source": "tatoeba",
+        "tatoeba_id": 1407040
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "abfahren",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈapfaːrən",
+    "meaning_en": "to depart, to leave; to carry off, to remove; to go for; to be crazy about, for; to be a fan of or infatuated with [with auf ‘someone/something’]",
+    "meaning_vi": null,
+    "forms": [
+      "abfahre",
+      "abfahren",
+      "abfahrend",
+      "abfahrest",
+      "abfahret",
+      "abfahrt",
+      "abfuhr",
+      "abfuhren",
+      "abfuhrst",
+      "abfuhrt",
+      "abfährst",
+      "abfährt",
+      "abführe",
+      "abführen",
+      "abführest",
+      "abführet",
+      "abführst",
+      "abführt",
+      "abgefahren",
+      "abzufahren",
+      "fahr ab",
+      "fahre ab",
+      "fahren ab",
+      "fahrest ab",
+      "fahret ab",
+      "fahrt ab",
+      "fuhr ab",
+      "fuhren ab",
+      "fuhrst ab",
+      "fuhrt ab",
+      "fährst ab",
+      "fährt ab",
+      "führe ab",
+      "führen ab",
+      "führest ab",
+      "führet ab",
+      "führst ab",
+      "führt ab"
+    ],
+    "examples": [
+      {
+        "de": "Ich muss morgen früh von hier abfahren.",
+        "vi": "Tôi phải rời khỏi đây vào sáng sớm mai.",
+        "source": "tatoeba",
+        "tatoeba_id": 1547069
+      }
+    ],
+    "synonyms": [
+      "abreisen",
+      "auf etw. stehen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Abfahrt",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Abfahrten",
+    "ipa": "ˈapˌfaːrt",
+    "meaning_en": "departure (of a land or water vehicle); exit, slip road, off-ramp (lane used to leave a motorway); slope, piste",
+    "meaning_vi": null,
+    "forms": [
+      "Abfahrt",
+      "Abfahrten"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Ausfahrt"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "abfliegen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔapˌfliːɡŋ̩",
+    "meaning_en": "to take off (from the ground), to fly away; to depart; to migrate",
+    "meaning_vi": null,
+    "forms": [
+      "abfliege",
+      "abfliegen",
+      "abfliegend",
+      "abfliegest",
+      "abflieget",
+      "abfliegst",
+      "abfliegt",
+      "abflog",
+      "abflogen",
+      "abflogst",
+      "abflogt",
+      "abflöge",
+      "abflögen",
+      "abflögest",
+      "abflöget",
+      "abflögst",
+      "abflögt",
+      "abgeflogen",
+      "abzufliegen",
+      "flieg ab",
+      "fliege ab",
+      "fliegen ab",
+      "fliegest ab",
+      "flieget ab",
+      "fliegst ab",
+      "fliegt ab",
+      "flog ab",
+      "flogen ab",
+      "flogst ab",
+      "flogt ab",
+      "flöge ab",
+      "flögen ab",
+      "flögest ab",
+      "flöget ab",
+      "flögst ab",
+      "flögt ab"
+    ],
+    "examples": [
+      {
+        "de": "Ich sehe gerne zu, wie Flugzeuge abfliegen.",
+        "vi": "Tôi thích xem máy bay cất cánh.",
+        "source": "tatoeba",
+        "tatoeba_id": 1826003
+      }
+    ],
+    "synonyms": [
+      "abreisen",
+      "starten"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Abflug",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Abflüge",
+    "ipa": "ˈʔapfluːk",
+    "meaning_en": "take-off; departure",
+    "meaning_vi": null,
+    "forms": [
+      "Abflug",
+      "Abfluge",
+      "Abfluges",
+      "Abflugs",
+      "Abflüge",
+      "Abflügen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "abgeben",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈap.ɡeːbn̩",
+    "meaning_en": "to give up, relinquish, let go, concede, hand over, etc. (power, money, valuable objects, etc.); to give away, give out (samples, promotional goods, bags, etc., also items for charity); to hand in, to turn in, to drop off, to deliver, to return",
+    "meaning_vi": null,
+    "forms": [
+      "abgab",
+      "abgaben",
+      "abgabst",
+      "abgabt",
+      "abgebe",
+      "abgeben",
+      "abgebend",
+      "abgebest",
+      "abgebet",
+      "abgebt",
+      "abgegeben",
+      "abgibst",
+      "abgibt",
+      "abgäbe",
+      "abgäben",
+      "abgäbest",
+      "abgäbet",
+      "abgäbst",
+      "abgäbt",
+      "abzugeben",
+      "gab ab",
+      "gaben ab",
+      "gabst ab",
+      "gabt ab",
+      "gebe ab",
+      "geben ab",
+      "gebest ab",
+      "gebet ab",
+      "gebt ab",
+      "gib ab",
+      "gibst ab",
+      "gibt ab",
+      "gäbe ab",
+      "gäben ab",
+      "gäbest ab",
+      "gäbet ab",
+      "gäbst ab",
+      "gäbt ab"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "abholen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaphoːln̩",
+    "meaning_en": "to collect, to pick up (e.g. a person or package waiting at a location, with oneself having arrived form elsewhere); to engage with, to relate to (one's constituents; especially in not ignoring their everyday problems); to resonate (with), to connect well (with customers)",
+    "meaning_vi": null,
+    "forms": [
+      "abgeholt",
+      "abhole",
+      "abholen",
+      "abholend",
+      "abholest",
+      "abholet",
+      "abholst",
+      "abholt",
+      "abholte",
+      "abholten",
+      "abholtest",
+      "abholtet",
+      "abzuholen",
+      "hol ab",
+      "hole ab",
+      "holen ab",
+      "holest ab",
+      "holet ab",
+      "holst ab",
+      "holt ab",
+      "holte ab",
+      "holten ab",
+      "holtest ab",
+      "holtet ab"
+    ],
+    "examples": [],
+    "synonyms": [
+      "mitnehmen"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Absender",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Absender",
+    "ipa": "ˈapˌzɛndɐ",
+    "meaning_en": "sender; return address (on a letter etc.)",
+    "meaning_vi": null,
+    "forms": [
+      "Absender",
+      "Absenderin",
+      "Absendern",
+      "Absenders"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "acht",
+    "level": "A1",
+    "pos": "num",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "axt",
+    "meaning_en": "the natural number eight; the numeral sign 8; a playing card with the value eight",
+    "meaning_vi": null,
+    "forms": [
+      "acht",
+      "Acht",
+      "Achten"
+    ],
+    "examples": [
+      {
+        "de": "Das fängt nicht vor acht Uhr dreißig an.",
+        "vi": "Nó sẽ không bắt đầu cho tới lúc tám giờ rưỡi.",
+        "source": "tatoeba",
+        "tatoeba_id": 328
+      },
+      {
+        "de": "Eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn.",
+        "vi": "Một, hai, ba, bốn, năm, sáu, bảy, tám, chín, mười.",
+        "source": "tatoeba",
+        "tatoeba_id": 927
+      },
+      {
+        "de": "Gib acht, dass er dir nicht in den Rücken fällt!",
+        "vi": "Hãy cẩn thận nếu không anh ta sẽ đâm sau lưng cậu.",
+        "source": "tatoeba",
+        "tatoeba_id": 8860972
+      },
+      {
+        "de": "Er ging um acht Uhr aus dem Haus.",
+        "vi": "Anh ấy đã ra khỏi nhà lúc 8 giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 7765616
+      },
+      {
+        "de": "Du wirst schätzungsweise vor acht in der Schule sein.",
+        "vi": "Cậu nên đến trường trước 8 giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 6770391
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Achtung",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": null,
+    "ipa": "ˈaxtʊŋ",
+    "meaning_en": "attention; esteem; respect",
+    "meaning_vi": null,
+    "forms": [
+      "Achtung"
+    ],
+    "examples": [
+      {
+        "de": "Achtung: nicht unterstützte Buchstaben werden als „_“ angezeigt.",
+        "vi": "Chú ý: Những ký tự không được hỗ trợ sẽ hiển thị bằng dấu \"_\".",
+        "source": "tatoeba",
+        "tatoeba_id": 715314
+      },
+      {
+        "de": "Achtung, fertig, los!",
+        "vi": "Vào vị trí, sẵn sàng, chạy!",
+        "source": "tatoeba",
+        "tatoeba_id": 394185
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "achtzehn",
+    "level": "A1",
+    "pos": "num",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaxˌt͡seːn",
+    "meaning_en": "eighteen",
+    "meaning_vi": null,
+    "forms": [
+      "achtzehn"
+    ],
+    "examples": [
+      {
+        "de": "Sie ist siebzehn, ich achtzehn.",
+        "vi": "Em ấy 17; tôi 18.",
+        "source": "tatoeba",
+        "tatoeba_id": 13950381
+      },
+      {
+        "de": "Das gesetzliche Heiratsalter beträgt in Australien achtzehn Jahre.",
+        "vi": "Tuổi kết hôn hợp pháp ở Úc là 18.",
+        "source": "tatoeba",
+        "tatoeba_id": 3610728
+      },
+      {
+        "de": "Ich lernte Autofahren und bekam den Führerschein, als ich achtzehn war.",
+        "vi": "Tôi đã học lái khi 18 tuổi và tôi đã được cấp bằng lái xe.",
+        "source": "tatoeba",
+        "tatoeba_id": 2050153
+      },
+      {
+        "de": "Sie kam mit achtzehn Jahren nach Tokio.",
+        "vi": "Cô ấy đã lên thủ đô khi cô ấy 18 tuổi.",
+        "source": "tatoeba",
+        "tatoeba_id": 812016
+      },
+      {
+        "de": "Sie kam nach Tokio, als sie achtzehn Jahre alt war.",
+        "vi": "Cô ấy đã lên thủ đô khi cô ấy 18 tuổi.",
+        "source": "tatoeba",
+        "tatoeba_id": 684183
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "achtzig",
+    "level": "A1",
+    "pos": "num",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaxt͡sɪk",
+    "meaning_en": "eighty",
+    "meaning_vi": null,
+    "forms": [
+      "achtzig"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Adresse",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Adressen",
+    "ipa": null,
+    "meaning_en": "address",
+    "meaning_vi": null,
+    "forms": [
+      "Adresse",
+      "Adressen"
+    ],
+    "examples": [
+      {
+        "de": "Wir brauchen Ihr Alter, Ihren Familienstand und Ihre Adresse.",
+        "vi": "Chúng tôi cần tuổi, tình trạng hôn nhân và địa chỉ của bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13928934
+      },
+      {
+        "de": "Geben Sie Ihren Namen und Ihre Adresse an.",
+        "vi": "Điền tên và địa chỉ của bạn vào.",
+        "source": "tatoeba",
+        "tatoeba_id": 12504031
+      },
+      {
+        "de": "Maria will die Adresse von Tom haben.",
+        "vi": "Maria muốn có địa chỉ của Tom.",
+        "source": "tatoeba",
+        "tatoeba_id": 6329954
+      },
+      {
+        "de": "Nennen Sie mir bitte Ihre Adresse.",
+        "vi": "Cho tôi xin địa chỉ của bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 4186689
+      },
+      {
+        "de": "Kennte ich ihren Namen und ihre Adresse, so könnte ich ihr schreiben.",
+        "vi": "Nếu tôi biết tên và địa chỉ của cô ấy, tôi sẽ viết thư cho cô ấy.",
+        "source": "tatoeba",
+        "tatoeba_id": 2579648
+      }
+    ],
+    "synonyms": [
+      "Anschrift"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "all",
+    "level": "A1",
+    "pos": "other",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "al",
+    "meaning_en": "all; every (in time intervals, with plural noun)",
+    "meaning_vi": null,
+    "forms": [
+      "all",
+      "alle",
+      "allem",
+      "allen",
+      "aller",
+      "alles"
+    ],
+    "examples": [
+      {
+        "de": "Alle wollen dich kennenlernen. Du bist berühmt!",
+        "vi": "Mọi người muốn gặp bạn vì bạn nổi tiếng!",
+        "source": "tatoeba",
+        "tatoeba_id": 270
+      },
+      {
+        "de": "Du bist an meiner Seite, jetzt ist alles gut.",
+        "vi": "Có em bên cạnh thì bây giờ mọi thứ đều ổn cả rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 447
+      },
+      {
+        "de": "Danke, das ist alles.",
+        "vi": "Cám ơn. Thôi nhé.",
+        "source": "tatoeba",
+        "tatoeba_id": 458
+      },
+      {
+        "de": "Alles, was falsch verstanden werden kann, wird falsch verstanden werden.",
+        "vi": "Cái gì dễ bị hiểu lầm thì sẽ luôn như vậy thôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 551
+      },
+      {
+        "de": "Nicht alles, was sich im Web befindet, kann mit Google gefunden werden.",
+        "vi": "Không phải tất cả mọi thứ trên web đều có thể tìm thấy được qua Google.",
+        "source": "tatoeba",
+        "tatoeba_id": 510345
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "alle",
+    "level": "A1",
+    "pos": "pron",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈalə",
+    "meaning_en": "inflection of all (“all”); inflection of all (“all”):; nominative/accusative singular feminine",
+    "meaning_vi": null,
+    "forms": [
+      "alle"
+    ],
+    "examples": [
+      {
+        "de": "Unsere Pläne sind alle ins Wasser gefallen.",
+        "vi": "Mọi kế hoạch đều đổ sông đổ bể.",
+        "source": "tatoeba",
+        "tatoeba_id": 535835
+      },
+      {
+        "de": "Was machen denn alle nach der Schule?",
+        "vi": "Mọi người làm gì sau giờ học?",
+        "source": "tatoeba",
+        "tatoeba_id": 13725681
+      },
+      {
+        "de": "Das sagen alle.",
+        "vi": "Mọi người nói vậy.",
+        "source": "tatoeba",
+        "tatoeba_id": 13632717
+      },
+      {
+        "de": "Alle wollen dich kennenlernen. Du bist berühmt!",
+        "vi": "Mọi người muốn gặp bạn vì bạn nổi tiếng!",
+        "source": "tatoeba",
+        "tatoeba_id": 270
+      },
+      {
+        "de": "Wenn ich Leute frage, was sie in Bezug aufs Gymnasium am meisten bedauern, sagen fast alle das Gleiche: dass sie so viel Zeit verschwendet haben.",
+        "vi": "Khi tôi hỏi mọi người điều gì khiến họ cảm thấy tiếc nuối khi còn đi học thì phần đông đều trả lời rằng họ đã lãng phí quá nhiều thời gian.",
+        "source": "tatoeba",
+        "tatoeba_id": 625
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "allein",
+    "level": "A1",
+    "pos": "other",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "(ʔ)aˈlaɪn",
+    "meaning_en": "alone; only",
+    "meaning_vi": null,
+    "forms": [
+      "allein",
+      "alleine"
+    ],
+    "examples": [
+      {
+        "de": "Ist Tom allein hingegangen?",
+        "vi": "Tom đi đến đó một mình?",
+        "source": "tatoeba",
+        "tatoeba_id": 4123816
+      },
+      {
+        "de": "Unsere Schule verbietet uns, allein ins Kino zu gehen.",
+        "vi": "Trường chúng tôi cấm chúng tôi đến rạp chiếu bóng một mình.",
+        "source": "tatoeba",
+        "tatoeba_id": 13725128
+      },
+      {
+        "de": "Es wäre besser, wenn er allein käme.",
+        "vi": "Sẽ tốt hơn nếu anh ấy đến một mình.",
+        "source": "tatoeba",
+        "tatoeba_id": 13618751
+      },
+      {
+        "de": "Allein wird Maria das Klavier nicht bewegen können.",
+        "vi": "Mary không thể tự mình di chuyển cái piano.",
+        "source": "tatoeba",
+        "tatoeba_id": 12799742
+      },
+      {
+        "de": "Ich will das nicht allein tun.",
+        "vi": "Tôi không muốn làm việc đó một mình.",
+        "source": "tatoeba",
+        "tatoeba_id": 12577572
+      }
+    ],
+    "synonyms": [
+      "bloß",
+      "nur"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "alleine",
+    "level": "A1",
+    "pos": "other",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "aˈlaɪ̯nə",
+    "meaning_en": "alternative form of allein",
+    "meaning_vi": null,
+    "forms": [
+      "alleine"
+    ],
+    "examples": [
+      {
+        "de": "Er wohnt alleine in dem Zimmer.",
+        "vi": "Anh ta sống một mình trong căn phòng đó.",
+        "source": "tatoeba",
+        "tatoeba_id": 3978762
+      },
+      {
+        "de": "Aber auf gar keinen Fall würde ich alleine verreisen.",
+        "vi": "Không đời nào tôi lại đi du lịch một mình",
+        "source": "tatoeba",
+        "tatoeba_id": 2456952
+      },
+      {
+        "de": "Ich bin nicht gerne alleine.",
+        "vi": "Tôi không thích ở một mình đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 826417
+      },
+      {
+        "de": "Ich mag es nicht alleine zu sein.",
+        "vi": "Tôi không thích ở một mình đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 810155
+      },
+      {
+        "de": "Bist du heute alleine gekommen?",
+        "vi": "Hôm nay bạn đến một mình à?",
+        "source": "tatoeba",
+        "tatoeba_id": 431169
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "alles",
+    "level": "A1",
+    "pos": "pron",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaləs",
+    "meaning_en": "everything; all; all (as in \"we all\" etc.); Used with an interrogative to express that the answer probably covers more than one item, like dialectal English all.",
+    "meaning_vi": null,
+    "forms": [
+      "alles"
+    ],
+    "examples": [
+      {
+        "de": "Alles ist in Ordnung. Du kannst jetzt weiterschlafen.",
+        "vi": "Mọi thứ đều ổn. Bây giờ bạn có thể quay về ngủ.",
+        "source": "tatoeba",
+        "tatoeba_id": 14024622
+      },
+      {
+        "de": "Sie schreibt alles auf.",
+        "vi": "Cô ấy viết hết xuống.",
+        "source": "tatoeba",
+        "tatoeba_id": 14020087
+      },
+      {
+        "de": "Du bist an meiner Seite, jetzt ist alles gut.",
+        "vi": "Có em bên cạnh thì bây giờ mọi thứ đều ổn cả rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 447
+      },
+      {
+        "de": "Danke, das ist alles.",
+        "vi": "Cám ơn. Thôi nhé.",
+        "source": "tatoeba",
+        "tatoeba_id": 458
+      },
+      {
+        "de": "Alles, was falsch verstanden werden kann, wird falsch verstanden werden.",
+        "vi": "Cái gì dễ bị hiểu lầm thì sẽ luôn như vậy thôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 551
+      }
+    ],
+    "synonyms": [
+      "alle"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "also",
+    "level": "A1",
+    "pos": "conj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔalzoː",
+    "meaning_en": "then, thus, so, hence (Used to connect a sentence or clause with previous information.); Used to introduce additional information about something previously mentioned.; thus, in this way",
+    "meaning_vi": null,
+    "forms": [
+      "also"
+    ],
+    "examples": [
+      {
+        "de": "Ist es also wahr?",
+        "vi": "Có đúng là vậy không?",
+        "source": "tatoeba",
+        "tatoeba_id": 1301109
+      },
+      {
+        "de": "Ich bin gerade auf Arbeit, also rufe ich dich später an.",
+        "vi": "Bây giờ tôi đang làm việc, nên là tôi sẽ gọi cho bạn sau.",
+        "source": "tatoeba",
+        "tatoeba_id": 8596339
+      },
+      {
+        "de": "„Hasst du mich?“ – „Nö.“ – „Magst du mich also?“ – „Warum fragst du?“",
+        "vi": "\"Em có ghét anh không?\" - \"Không\" - \"Vậy là thích anh chứ gì?\" - \"Tự nhiên hỏi làm gì?\"",
+        "source": "tatoeba",
+        "tatoeba_id": 3884949
+      },
+      {
+        "de": "Sie geben also zu, dass Sie gelogen haben, was?",
+        "vi": "Vậy bạn thừa nhận là bạn đã nói dối, đúng không?",
+        "source": "tatoeba",
+        "tatoeba_id": 3438694
+      },
+      {
+        "de": "Du gibst also zu, dass du gelogen hast, was?",
+        "vi": "Vậy bạn thừa nhận là bạn đã nói dối, đúng không?",
+        "source": "tatoeba",
+        "tatoeba_id": 3438692
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "alt",
+    "level": "A1",
+    "pos": "adj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "alt",
+    "meaning_en": "old; ancient; elderly (inflected in the comparative)",
+    "meaning_vi": null,
+    "forms": [
+      "alt",
+      "alte",
+      "altem",
+      "alten",
+      "alter",
+      "altes",
+      "am ältesten",
+      "das alte",
+      "das ältere",
+      "das älteste",
+      "dem alten",
+      "dem älteren",
+      "dem ältesten",
+      "den alten",
+      "den älteren",
+      "den ältesten",
+      "der alte",
+      "der alten",
+      "der ältere",
+      "der älteren",
+      "der älteste",
+      "der ältesten",
+      "des alten",
+      "des älteren",
+      "des ältesten",
+      "die alte",
+      "die alten",
+      "die ältere",
+      "die älteren",
+      "die älteste",
+      "die ältesten",
+      "ein alter",
+      "ein altes",
+      "ein älterer",
+      "ein älteres",
+      "ein ältester",
+      "ein ältestes",
+      "eine alte",
+      "eine ältere",
+      "eine älteste",
+      "einem alten",
+      "einem älteren",
+      "einem ältesten",
+      "einen alten",
+      "einen älteren",
+      "einen ältesten",
+      "einer alten",
+      "einer älteren",
+      "einer ältesten",
+      "eines alten",
+      "eines älteren",
+      "eines ältesten",
+      "keine alten",
+      "keine älteren",
+      "keine ältesten",
+      "keinen alten",
+      "keinen älteren",
+      "keinen ältesten",
+      "keiner alten",
+      "keiner älteren",
+      "keiner ältesten",
+      "älter",
+      "ältere",
+      "älterem",
+      "älteren",
+      "älterer",
+      "älteres",
+      "älteste",
+      "ältestem",
+      "ältesten",
+      "ältester",
+      "ältestes"
+    ],
+    "examples": [
+      {
+        "de": "Als ich in deinem Alter war, war Pluto ein Planet.",
+        "vi": "Hồi tôi bằng tuổi cậu, Diêm Vương vẫn còn là một hành tinh.",
+        "source": "tatoeba",
+        "tatoeba_id": 985
+      },
+      {
+        "de": "Ich bin zu alt für diese Welt.",
+        "vi": "Tôi đã quá già cho thế giới này.",
+        "source": "tatoeba",
+        "tatoeba_id": 508476
+      },
+      {
+        "de": "Er ist schon im Alter.",
+        "vi": "Đầu bạc răng long rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 4169989
+      },
+      {
+        "de": "Ich habe einen Bruder in Ihrem Alter.",
+        "vi": "Tôi có một người anh trai cùng tuổi với bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13852679
+      },
+      {
+        "de": "Ich habe einen Bruder in eurem Alter.",
+        "vi": "Tôi có một người anh trai cùng tuổi với bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13852677
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Alter",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Alter",
+    "ipa": "ˈaltər",
+    "meaning_en": "age, old age; antiquity; epoch, age",
+    "meaning_vi": null,
+    "forms": [
+      "Alter",
+      "Altern",
+      "Alters"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe einen Bruder in deinem Alter.",
+        "vi": "Tôi có một người anh trai cùng tuổi với bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13852676
+      },
+      {
+        "de": "Als ich in deinem Alter war, war Pluto ein Planet.",
+        "vi": "Hồi tôi bằng tuổi cậu, Diêm Vương vẫn còn là một hành tinh.",
+        "source": "tatoeba",
+        "tatoeba_id": 985
+      },
+      {
+        "de": "Er ist schon im Alter.",
+        "vi": "Đầu bạc răng long rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 4169989
+      },
+      {
+        "de": "Wir brauchen Ihr Alter, Ihren Familienstand und Ihre Adresse.",
+        "vi": "Chúng tôi cần tuổi, tình trạng hôn nhân và địa chỉ của bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13928934
+      },
+      {
+        "de": "Ich habe einen Bruder in Ihrem Alter.",
+        "vi": "Tôi có một người anh trai cùng tuổi với bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 13852679
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "am",
+    "level": "A1",
+    "pos": "prep",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "am",
+    "meaning_en": "contraction of an (“at/on”) + dem (“the”, masculine/neuter dative singular); contraction of auf (“on/at”) + dem (“the”, masculine/neuter dative singular)",
+    "meaning_vi": null,
+    "forms": [
+      "am"
+    ],
+    "examples": [
+      {
+        "de": "Ich finde, Wörter mit präzisen Bedeutungen kann man sich am einfachsten merken.",
+        "vi": "Tôi thấy những từ mà giải thích ngắn gọn thì luôn dễ nhớ nhất.",
+        "source": "tatoeba",
+        "tatoeba_id": 805
+      },
+      {
+        "de": "Die wahre Freude ist die Freude am anderen.",
+        "vi": "Niềm vui thực sự là một niềm vui cùng với người khác.",
+        "source": "tatoeba",
+        "tatoeba_id": 2804898
+      },
+      {
+        "de": "Yanni ist am Schlafen.",
+        "vi": "Yanni đang ngủ.",
+        "source": "tatoeba",
+        "tatoeba_id": 13683355
+      },
+      {
+        "de": "Ich mag es, am Abend Fremdsprachen zu lernen.",
+        "vi": "Tôi thích học ngoại ngữ vào mỗi buổi tối.",
+        "source": "tatoeba",
+        "tatoeba_id": 14004896
+      },
+      {
+        "de": "Wenn ich Leute frage, was sie in Bezug aufs Gymnasium am meisten bedauern, sagen fast alle das Gleiche: dass sie so viel Zeit verschwendet haben.",
+        "vi": "Khi tôi hỏi mọi người điều gì khiến họ cảm thấy tiếc nuối khi còn đi học thì phần đông đều trả lời rằng họ đã lãng phí quá nhiều thời gian.",
+        "source": "tatoeba",
+        "tatoeba_id": 625
+      }
+    ],
+    "synonyms": [
+      "aufm"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "an",
+    "level": "A1",
+    "pos": "prep",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "an",
+    "meaning_en": "on, upon, at, in, against; by, near, close to, next to; on; in; at",
+    "meaning_vi": null,
+    "forms": [
+      "an"
+    ],
+    "examples": [
+      {
+        "de": "Das kommt auf den Zusammenhang an.",
+        "vi": "Cái đó tùy thuộc vào văn cảnh.",
+        "source": "tatoeba",
+        "tatoeba_id": 135
+      },
+      {
+        "de": "Schau mich an, wenn ich mit dir rede!",
+        "vi": "Làm ơn nhìn mặt tôi khi nói chuyện!",
+        "source": "tatoeba",
+        "tatoeba_id": 503
+      },
+      {
+        "de": "Es kommt darauf an, was du mit an Gott \"glauben\" meinst.",
+        "vi": "Tùy theo bạn cách nghĩa sự \"tin\" Chúa là sao.",
+        "source": "tatoeba",
+        "tatoeba_id": 760
+      },
+      {
+        "de": "Der Unterricht fängt bald wieder an.",
+        "vi": "Sắp vô tiết rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 816
+      },
+      {
+        "de": "Warte mal, jemand klopft an meiner Tür.",
+        "vi": "Chờ tí, có ai đang gõ cửa.",
+        "source": "tatoeba",
+        "tatoeba_id": 878
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "an",
+    "level": "A1",
+    "pos": "adv",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "an",
+    "meaning_en": "onward; on",
+    "meaning_vi": null,
+    "forms": [
+      "an"
+    ],
+    "examples": [
+      {
+        "de": "Nehmen Sie unseren Vorschlag an?",
+        "vi": "Bạn có đồng ý với đề xuất của tôi?",
+        "source": "tatoeba",
+        "tatoeba_id": 344930
+      },
+      {
+        "de": "Das wird eine gute Erinnerung an meine Reise durch die Vereinigten Staaten sein.",
+        "vi": "Cái này sẽ là một kỷ niệm tốt của cuộc du ngoạn xung quanh nước Mỹ.",
+        "source": "tatoeba",
+        "tatoeba_id": 390
+      },
+      {
+        "de": "Das kommt auf den Zusammenhang an.",
+        "vi": "Cái đó tùy thuộc vào văn cảnh.",
+        "source": "tatoeba",
+        "tatoeba_id": 135
+      },
+      {
+        "de": "Das fängt nicht vor acht Uhr dreißig an.",
+        "vi": "Nó sẽ không bắt đầu cho tới lúc tám giờ rưỡi.",
+        "source": "tatoeba",
+        "tatoeba_id": 328
+      },
+      {
+        "de": "Du bist an meiner Seite, jetzt ist alles gut.",
+        "vi": "Có em bên cạnh thì bây giờ mọi thứ đều ổn cả rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 447
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anbieten",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔanbiːtn̩",
+    "meaning_en": "to offer, to provide; to offer for sale or rent; to lend oneself to, to be suitable for",
+    "meaning_vi": null,
+    "forms": [
+      "anbiete",
+      "anbieten",
+      "anbietend",
+      "anbietest",
+      "anbietet",
+      "anbot",
+      "anboten",
+      "anbotest",
+      "anbotet",
+      "anbotst",
+      "anböte",
+      "anböten",
+      "anbötest",
+      "anbötet",
+      "angeboten",
+      "anzubieten",
+      "biet an",
+      "biete an",
+      "bieten an",
+      "bietest an",
+      "bietet an",
+      "bot an",
+      "boten an",
+      "botest an",
+      "botet an",
+      "botst an",
+      "böte an",
+      "böten an",
+      "bötest an",
+      "bötet an"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ander",
+    "level": "A1",
+    "pos": "pron",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔandər",
+    "meaning_en": "See anderer.; second",
+    "meaning_vi": null,
+    "forms": [
+      "ander",
+      "andere",
+      "anderem",
+      "anderen",
+      "anderer",
+      "anderes",
+      "das andere",
+      "dem anderen",
+      "den anderen",
+      "der andere",
+      "der anderen",
+      "des anderen",
+      "die andere",
+      "die anderen",
+      "ein anderer",
+      "ein anderes",
+      "eine andere",
+      "einem anderen",
+      "einen anderen",
+      "einer anderen",
+      "eines anderen",
+      "keine anderen",
+      "keinen anderen",
+      "keiner anderen"
+    ],
+    "examples": [
+      {
+        "de": "Wir nutzen dieselben Wörter, reden aber über andere Sachen.",
+        "vi": "Chúng ta dùng chung từ ngữ, nhưng lại nói về những điều khác nhau.",
+        "source": "tatoeba",
+        "tatoeba_id": 13895752
+      },
+      {
+        "de": "Sie sagen etwas. Aber machen etwas Anderes. Man kann ihnen nicht glauben.",
+        "vi": "Bạn nói một đằng, làm một nẻo. Không tin bạn được.",
+        "source": "tatoeba",
+        "tatoeba_id": 13782044
+      },
+      {
+        "de": "An der Ampel gerade auf die andere Seite gehen!",
+        "vi": "Đi thẳng sau đèn giao thông.",
+        "source": "tatoeba",
+        "tatoeba_id": 11488968
+      },
+      {
+        "de": "Was für andere Optionen habe ich?",
+        "vi": "Tôi còn có sự chọn lựa nào khác nữa?",
+        "source": "tatoeba",
+        "tatoeba_id": 251
+      },
+      {
+        "de": "Demokratie ist die schlechteste Regierungsform, abgesehen von allen anderen, die ausprobiert wurden.",
+        "vi": "Trong tất cả các loại hình chính phủ, dân chủ là tệ nhất, trừ mọi chính phủ mà đã tồn tại từ xưa đến giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 354
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anfang",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Anfänge",
+    "ipa": "ˈʔanfaŋ",
+    "meaning_en": "start, beginning, origin (spatially or temporally)",
+    "meaning_vi": null,
+    "forms": [
+      "Anf.",
+      "Anfang",
+      "Anfange",
+      "Anfanges",
+      "Anfangs",
+      "Anfänge",
+      "Anfängen"
+    ],
+    "examples": [
+      {
+        "de": "Das Ölgemälde ist aus dem Anfang des sechzehten Jahrhunderts.",
+        "vi": "Tranh sơn dầu này đã có từ đầu thế kỉ mười sáu.",
+        "source": "tatoeba",
+        "tatoeba_id": 14038800
+      },
+      {
+        "de": "Guter Anfang ist halbe Arbeit.",
+        "vi": "Khởi đầu tốt là coi như xong một nửa.",
+        "source": "tatoeba",
+        "tatoeba_id": 7802447
+      },
+      {
+        "de": "Am Anfang schuf Gott Himmel und Erde.",
+        "vi": "Ban đầu Ðức Chúa Trời dựng nên trời đất.",
+        "source": "tatoeba",
+        "tatoeba_id": 1216411
+      },
+      {
+        "de": "Am Anfang erschuf Gott den Himmel und die Erde.",
+        "vi": "Ban đầu Ðức Chúa Trời dựng nên trời đất.",
+        "source": "tatoeba",
+        "tatoeba_id": 1216410
+      },
+      {
+        "de": "Im Anfang schuf Gott Himmel und Erde.",
+        "vi": "Ban đầu Ðức Chúa Trời dựng nên trời đất.",
+        "source": "tatoeba",
+        "tatoeba_id": 625783
+      }
+    ],
+    "synonyms": [
+      "Beginn"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anfangen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈanˌfaŋən",
+    "meaning_en": "to begin; to commence; to start; to begin, to start",
+    "meaning_vi": null,
+    "forms": [
+      "anfange",
+      "anfangen",
+      "anfangend",
+      "anfangest",
+      "anfanget",
+      "anfangt",
+      "anfing",
+      "anfinge",
+      "anfingen",
+      "anfingest",
+      "anfinget",
+      "anfingst",
+      "anfingt",
+      "anfängst",
+      "anfängt",
+      "angefangen",
+      "anzufangen",
+      "fang an",
+      "fange an",
+      "fangen an",
+      "fangest an",
+      "fanget an",
+      "fangt an",
+      "fing an",
+      "finge an",
+      "fingen an",
+      "fingest an",
+      "finget an",
+      "fingst an",
+      "fingt an",
+      "fängst an",
+      "fängt an"
+    ],
+    "examples": [
+      {
+        "de": "Der Film wird gleich anfangen.",
+        "vi": "Bộ phim sắp bắt đầu rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 7865246
+      },
+      {
+        "de": "Wir werden nicht anfangen, bis Bob kommt.",
+        "vi": "Chúng ta sẽ không bắt đầu cho đến khi Bob tới.",
+        "source": "tatoeba",
+        "tatoeba_id": 1856777
+      },
+      {
+        "de": "Sie sollten baldmöglichst anfangen.",
+        "vi": "Bạn hãy bắt đầu trong thời gian sớm nhất có thể.",
+        "source": "tatoeba",
+        "tatoeba_id": 1575982
+      },
+      {
+        "de": "Du solltest so früh wie möglich anfangen.",
+        "vi": "Bạn hãy bắt đầu trong thời gian sớm nhất có thể.",
+        "source": "tatoeba",
+        "tatoeba_id": 1575981
+      },
+      {
+        "de": "Lasst uns mit Bier anfangen.",
+        "vi": "Hãy bắt đầu với bia.",
+        "source": "tatoeba",
+        "tatoeba_id": 1096741
+      }
+    ],
+    "synonyms": [
+      "beginnen",
+      "starten"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Angebot",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Angebote",
+    "ipa": "ˈanɡəˌboːt",
+    "meaning_en": "offer, proposition; quote, estimate, offer (as made by an artisan); sale, bargain, offer (with a lowered price)",
+    "meaning_vi": null,
+    "forms": [
+      "Anbot",
+      "Angebot",
+      "Angebote",
+      "Angeboten",
+      "Angebotes",
+      "Angebots"
+    ],
+    "examples": [
+      {
+        "de": "Das ist mein letzter Angebot.",
+        "vi": "Đó là đề nghị cuối cùng của tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 12756172
+      },
+      {
+        "de": "Sie gab zu, dass mein Angebot angemessen war.",
+        "vi": "Cô ấy thừa nhận rằng yêu cầu của tôi là chính đáng.",
+        "source": "tatoeba",
+        "tatoeba_id": 10545138
+      },
+      {
+        "de": "Es war dumm von ihm, ihr Angebot abzulehnen.",
+        "vi": "Anh ta thật ngốc khi từ chối lời đề nghị của cô ấy.",
+        "source": "tatoeba",
+        "tatoeba_id": 496855
+      },
+      {
+        "de": "Du hättest sein Angebot ablehnen sollen.",
+        "vi": "Đáng lẽ ra bạn nên từ chối lời đề nghị của anh ta.",
+        "source": "tatoeba",
+        "tatoeba_id": 476131
+      },
+      {
+        "de": "Ihr hättet sein Angebot ablehnen sollen.",
+        "vi": "Đáng lẽ ra bạn nên từ chối lời đề nghị của anh ta.",
+        "source": "tatoeba",
+        "tatoeba_id": 476130
+      }
+    ],
+    "synonyms": [
+      "Kostenvoranschlag",
+      "Sortiment"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anklicken",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈanˌklɪkn̩",
+    "meaning_en": "to click on (with a mouse)",
+    "meaning_vi": null,
+    "forms": [
+      "angeklickt",
+      "anklicke",
+      "anklicken",
+      "anklickend",
+      "anklickest",
+      "anklicket",
+      "anklickst",
+      "anklickt",
+      "anklickte",
+      "anklickten",
+      "anklicktest",
+      "anklicktet",
+      "anzuklicken",
+      "klick an",
+      "klicke an",
+      "klicken an",
+      "klickest an",
+      "klicket an",
+      "klickst an",
+      "klickt an",
+      "klickte an",
+      "klickten an",
+      "klicktest an",
+      "klicktet an"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ankommen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔanˌkɔmən",
+    "meaning_en": "to arrive; to depend; to be important, to matter",
+    "meaning_vi": null,
+    "forms": [
+      "angekommen",
+      "ankam",
+      "ankamen",
+      "ankamst",
+      "ankamt",
+      "ankomme",
+      "ankommen",
+      "ankommend",
+      "ankommest",
+      "ankommet",
+      "ankommst",
+      "ankommt",
+      "ankäme",
+      "ankämen",
+      "ankämest",
+      "ankämet",
+      "ankämst",
+      "ankämt",
+      "anzukommen",
+      "kam an",
+      "kamen an",
+      "kamst an",
+      "kamt an",
+      "komm an",
+      "komme an",
+      "kommen an",
+      "kommest an",
+      "kommet an",
+      "kommst an",
+      "kommt an",
+      "käme an",
+      "kämen an",
+      "kämest an",
+      "kämet an",
+      "kämst an",
+      "kämt an"
+    ],
+    "examples": [
+      {
+        "de": "Ihr solltet vor acht an der Schule ankommen.",
+        "vi": "Cậu nên đến trường trước 8 giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 6588217
+      },
+      {
+        "de": "Ihr müsstet vor neun an der Schule ankommen.",
+        "vi": "Bạn phải đến trường trước 9 giờ.",
+        "source": "tatoeba",
+        "tatoeba_id": 2366868
+      },
+      {
+        "de": "Sobald er am Flughafen ankam, rief er sein Büro an.",
+        "vi": "Khi đến sân bay, anh ấy đã ngay lập tức gọi điện thoại cho công ty.",
+        "source": "tatoeba",
+        "tatoeba_id": 2258500
+      },
+      {
+        "de": "Ich werde am 23. Mai ankommen.",
+        "vi": "Ngày 23 tháng 5 này tôi sẽ đến.",
+        "source": "tatoeba",
+        "tatoeba_id": 747777
+      },
+      {
+        "de": "Bitte sage mir, wann er hier ankommen will.",
+        "vi": "Vui lòng nói cho tôi biết khi nào anh ấy đến đây.",
+        "source": "tatoeba",
+        "tatoeba_id": 737397
+      }
+    ],
+    "synonyms": [
+      "abhängen",
+      "eintreffen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ankreuzen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": "to cross, check, checkmark, tick off (mark with a cross)",
+    "meaning_vi": null,
+    "forms": [
+      "angekreuzt",
+      "ankreuze",
+      "ankreuzen",
+      "ankreuzend",
+      "ankreuzest",
+      "ankreuzet",
+      "ankreuzt",
+      "ankreuzte",
+      "ankreuzten",
+      "ankreuztest",
+      "ankreuztet",
+      "anzukreuzen",
+      "kreuz an",
+      "kreuze an",
+      "kreuzen an",
+      "kreuzest an",
+      "kreuzet an",
+      "kreuzt an",
+      "kreuzte an",
+      "kreuzten an",
+      "kreuztest an",
+      "kreuztet an"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ankunft",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Ankünfte",
+    "ipa": "ˈankʊnft",
+    "meaning_en": "arrival",
+    "meaning_vi": null,
+    "forms": [
+      "Ankunft",
+      "Ankünfte",
+      "Ankünften"
+    ],
+    "examples": [
+      {
+        "de": "Er ging bald nach unserer Ankunft weg.",
+        "vi": "Nó về sớm sau khi chúng tôi tới.",
+        "source": "tatoeba",
+        "tatoeba_id": 651290
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anmachen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈanˌmaχən",
+    "meaning_en": "to switch on, to turn on (a lamp, a stove, an electronic device, etc.); to light, to start (a fire, a candle, gas etc.);; to turn on (a person, sexually), to hit on (a person)",
+    "meaning_vi": null,
+    "forms": [
+      "angemacht",
+      "anmache",
+      "anmachen",
+      "anmachend",
+      "anmachest",
+      "anmachet",
+      "anmachst",
+      "anmacht",
+      "anmachte",
+      "anmachten",
+      "anmachtest",
+      "anmachtet",
+      "anzumachen",
+      "mach an",
+      "mache an",
+      "machen an",
+      "machest an",
+      "machet an",
+      "machst an",
+      "macht an",
+      "machte an",
+      "machten an",
+      "machtest an",
+      "machtet an"
+    ],
+    "examples": [],
+    "synonyms": [
+      "anbrennen",
+      "anschalten",
+      "anschmeißen",
+      "anstellen",
+      "anzünden",
+      "aufdrehen",
+      "befeuern",
+      "einschalten",
+      "entzünden"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anmelden",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔanmɛldn̩",
+    "meaning_en": "to announce, declare; to enroll, to sign up; to log in",
+    "meaning_vi": null,
+    "forms": [
+      "angemeldet",
+      "anmelde",
+      "anmelden",
+      "anmeldend",
+      "anmeldest",
+      "anmeldet",
+      "anmeldete",
+      "anmeldeten",
+      "anmeldetest",
+      "anmeldetet",
+      "anzumelden",
+      "meld an",
+      "melde an",
+      "melden an",
+      "meldest an",
+      "meldet an",
+      "meldete an",
+      "meldeten an",
+      "meldetest an",
+      "meldetet an"
+    ],
+    "examples": [
+      {
+        "de": "Anmelden.",
+        "vi": "Đăng nhập.",
+        "source": "tatoeba",
+        "tatoeba_id": 13449948
+      }
+    ],
+    "synonyms": [
+      "einloggen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anmeldung",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Anmeldungen",
+    "ipa": null,
+    "meaning_en": "application; announcement, booking, registration; login, logon",
+    "meaning_vi": null,
+    "forms": [
+      "Anmeldung",
+      "Anmeldungen"
+    ],
+    "examples": [
+      {
+        "de": "Wo im Hotel ist die Anmeldung?",
+        "vi": "Bàn đăng ký của khách sạn này ở đâu?",
+        "source": "tatoeba",
+        "tatoeba_id": 1503711
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anrede",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Anreden",
+    "ipa": "ˈanˌʁeːdə",
+    "meaning_en": "salutation, form of address (e.g., in a letter), appellation, title; a (short) speech to someone",
+    "meaning_vi": null,
+    "forms": [
+      "Anrede",
+      "Anreden"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Ansprache",
+      "Titulierung"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anruf",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Anrufe",
+    "ipa": "ˈanʁuːf",
+    "meaning_en": "a call upon, an appeal (e.g., to gods, a court, etc.); a call, a holler; a (phone) call",
+    "meaning_vi": null,
+    "forms": [
+      "Anruf",
+      "Anrufe",
+      "Anrufen",
+      "Anrufes",
+      "Anrufs"
+    ],
+    "examples": [
+      {
+        "de": "Du hättest mich anrufen sollen!",
+        "vi": "Bạn đáng lẽ ra phải gọi điện thoại cho tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 2718801
+      },
+      {
+        "de": "Sie hätten mich anrufen sollen.",
+        "vi": "Đáng lẽ bạn nên gọi cho tôi mới phải.",
+        "source": "tatoeba",
+        "tatoeba_id": 13074750
+      },
+      {
+        "de": "Ihr hättet mich anrufen sollen.",
+        "vi": "Đáng lẽ bạn nên gọi cho tôi mới phải.",
+        "source": "tatoeba",
+        "tatoeba_id": 13074749
+      },
+      {
+        "de": "Du hättest mich anrufen sollen.",
+        "vi": "Đáng lẽ bạn nên gọi cho tôi mới phải.",
+        "source": "tatoeba",
+        "tatoeba_id": 13074748
+      },
+      {
+        "de": "Du hättest sie anrufen sollen.",
+        "vi": "Cậu nên gọi cho họ",
+        "source": "tatoeba",
+        "tatoeba_id": 8674583
+      }
+    ],
+    "synonyms": [
+      "Telefonanruf"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anrufbeantworter",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Anrufbeantworter",
+    "ipa": null,
+    "meaning_en": "answering machine; voicemail",
+    "meaning_vi": null,
+    "forms": [
+      "Anrufbeantworter",
+      "Anrufbeantwortern",
+      "Anrufbeantworters"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anrufen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔanʁuːfɱ̩",
+    "meaning_en": "to call, to ring (by telephone or similar technology); to call on (someone, e.g. a divine being); to appeal to; to call upon",
+    "meaning_vi": null,
+    "forms": [
+      "angerufen",
+      "anrief",
+      "anriefe",
+      "anriefen",
+      "anriefest",
+      "anriefet",
+      "anriefst",
+      "anrieft",
+      "anrufe",
+      "anrufen",
+      "anrufend",
+      "anrufest",
+      "anrufet",
+      "anrufst",
+      "anruft",
+      "anzurufen",
+      "rief an",
+      "riefe an",
+      "riefen an",
+      "riefest an",
+      "riefet an",
+      "riefst an",
+      "rieft an",
+      "ruf an",
+      "rufe an",
+      "rufen an",
+      "rufest an",
+      "rufet an",
+      "rufst an",
+      "ruft an"
+    ],
+    "examples": [
+      {
+        "de": "„Soll ich ihn dich anrufen lassen, wenn er zurückkommt?“ – „Ja, danke.“",
+        "vi": "\"Đợi anh ấy quay về, tôi sẽ bảo anh ấy gọi điện thoại cho bạn nhé?\" \"Vâng, cảm ơn.\"",
+        "source": "tatoeba",
+        "tatoeba_id": 8342294
+      },
+      {
+        "de": "Ich möchte die Eltern anrufen.",
+        "vi": "Tôi muốn gọi điện thoại tới cha mẹ.",
+        "source": "tatoeba",
+        "tatoeba_id": 1973199
+      },
+      {
+        "de": "Ich dachte, du wolltest deine Frau anrufen.",
+        "vi": "Tôi tưởng bạn muốn gọi cho vợ.",
+        "source": "tatoeba",
+        "tatoeba_id": 1415957
+      },
+      {
+        "de": "Ich möchte meine Botschaft anrufen.",
+        "vi": "Tôi muốn gọi cho đại sứ quán của tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 923592
+      },
+      {
+        "de": "Er schlief noch, als ich anrief.",
+        "vi": "Anh ấy vẫn đang ngủ khi tôi gọi.",
+        "source": "tatoeba",
+        "tatoeba_id": 14031836
+      }
+    ],
+    "synonyms": [
+      "antelefonieren"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ansage",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Ansagen",
+    "ipa": "ˈanzaːɡə",
+    "meaning_en": "announcement",
+    "meaning_vi": null,
+    "forms": [
+      "Ansage",
+      "Ansagen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Ankündigung"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anschluss",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Anschlüsse",
+    "ipa": "ˈanʃlʊs",
+    "meaning_en": "connection, joining; annexation; Anschluss",
+    "meaning_vi": null,
+    "forms": [
+      "Anschluss",
+      "Anschlusse",
+      "Anschlusses",
+      "Anschluß",
+      "Anschlüsse",
+      "Anschlüssen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Antwort",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Antworten",
+    "ipa": "ˈantvɔʁt",
+    "meaning_en": "answer",
+    "meaning_vi": null,
+    "forms": [
+      "Antwort",
+      "Antworten"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe Tom gesagt, dass seine Antwort falsch ist.",
+        "vi": "Tôi bảo Tom là câu trả lời của anh ấy sai.",
+        "source": "tatoeba",
+        "tatoeba_id": 13551105
+      },
+      {
+        "de": "Kennt ihr die Antwort?",
+        "vi": "Bạn có biết đáp án là gì không?",
+        "source": "tatoeba",
+        "tatoeba_id": 14031834
+      },
+      {
+        "de": "Die Antworten sind auf Seite einhundertdreiundzwanzig.",
+        "vi": "Đáp án nằm ở trang một trăm hai mươi ba.",
+        "source": "tatoeba",
+        "tatoeba_id": 13911470
+      },
+      {
+        "de": "Ich bin mir bei der Antwort nicht sicher.",
+        "vi": "Tôi không rõ câu trả lời là gì.",
+        "source": "tatoeba",
+        "tatoeba_id": 13727755
+      },
+      {
+        "de": "Antworten Sie auf Französisch.",
+        "vi": "Trả lời bằng tiếng Pháp đi.",
+        "source": "tatoeba",
+        "tatoeba_id": 9996812
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "antworten",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈantvɔʁtn̩",
+    "meaning_en": "to answer, to reply",
+    "meaning_vi": null,
+    "forms": [
+      "antwort",
+      "antworte",
+      "antworten",
+      "antwortend",
+      "antwortest",
+      "antwortet",
+      "antwortete",
+      "antworteten",
+      "antwortetest",
+      "antwortetet",
+      "geantwortet"
+    ],
+    "examples": [
+      {
+        "de": "Was hast du geantwortet?",
+        "vi": "Bạn đã trả lời như thế nào?",
+        "source": "tatoeba",
+        "tatoeba_id": 228
+      },
+      {
+        "de": "Ich antworte dir morgen oder übermorgen.",
+        "vi": "Tôi sẽ trả lời bạn vào ngày mai hoặc ngày kia.",
+        "source": "tatoeba",
+        "tatoeba_id": 14038668
+      },
+      {
+        "de": "Weshalb hast du nicht geantwortet?",
+        "vi": "Tại sao bạn đã không trả lời?",
+        "source": "tatoeba",
+        "tatoeba_id": 12525788
+      },
+      {
+        "de": "Wieso hast du nicht geantwortet?",
+        "vi": "Tại sao bạn đã không trả lời?",
+        "source": "tatoeba",
+        "tatoeba_id": 12525786
+      },
+      {
+        "de": "Weshalb haben Sie nicht geantwortet?",
+        "vi": "Tại sao bạn đã không trả lời?",
+        "source": "tatoeba",
+        "tatoeba_id": 12525785
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Anzeige",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Anzeigen",
+    "ipa": "ˈanˌt͡saɪ̯ɡə",
+    "meaning_en": "advertisement, announcement (in a newspaper, etc.); display (of a technical device); report, complaint, notification (to the authorities)",
+    "meaning_vi": null,
+    "forms": [
+      "Anzeige",
+      "Anzeigen"
+    ],
+    "examples": [
+      {
+        "de": "Zum Anzeigen der Lösung auf die Aufgabe klicken.",
+        "vi": "Để xem câu trả lời của câu hỏi, hãy nhấp vào câu hỏi.",
+        "source": "tatoeba",
+        "tatoeba_id": 5861299
+      },
+      {
+        "de": "Klicken Sie auf die Frage, um sich die Antwort anzeigen zu lassen.",
+        "vi": "Để xem câu trả lời của câu hỏi, hãy click vào câu hỏi.",
+        "source": "tatoeba",
+        "tatoeba_id": 3348597
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "anziehen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈantsiːən",
+    "meaning_en": "senses related to dressing; to get dressed; to dress (in a specific manner)",
+    "meaning_vi": null,
+    "forms": [
+      "angezogen",
+      "anziehe",
+      "anziehen",
+      "anziehend",
+      "anziehest",
+      "anziehet",
+      "anziehst",
+      "anzieht",
+      "anzog",
+      "anzogen",
+      "anzogst",
+      "anzogt",
+      "anzuziehen",
+      "anzöge",
+      "anzögen",
+      "anzögest",
+      "anzöget",
+      "anzögst",
+      "anzögt",
+      "zieh an",
+      "ziehe an",
+      "ziehen an",
+      "ziehest an",
+      "ziehet an",
+      "ziehst an",
+      "zieht an",
+      "zog an",
+      "zogen an",
+      "zogst an",
+      "zogt an",
+      "zöge an",
+      "zögen an",
+      "zögest an",
+      "zöget an",
+      "zögst an",
+      "zögt an"
+    ],
+    "examples": [
+      {
+        "de": "Willst du das wirklich anziehen?",
+        "vi": "Bạn có thật sự muốn mặc thứ đó không?",
+        "source": "tatoeba",
+        "tatoeba_id": 6302685
+      },
+      {
+        "de": "Ich werde keine Krawatte anziehen.",
+        "vi": "Tôi sẽ không thắt ca vát đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 3667752
+      },
+      {
+        "de": "Was soll ich zu der Verabredung morgen anziehen?",
+        "vi": "Bạn nghĩ là tôi nên mặc gì để đi hẹn hò ngày mai?",
+        "source": "tatoeba",
+        "tatoeba_id": 2858745
+      },
+      {
+        "de": "Was meinst du, welche Sachen sollte ich morgen zu meinem Date anziehen?",
+        "vi": "Trong buổi hẹn hò ngày mai, bạn nghĩ là tôi nên mặc gì để đi đây?",
+        "source": "tatoeba",
+        "tatoeba_id": 917341
+      }
+    ],
+    "synonyms": [
+      "anlegen",
+      "annehmen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Apartment",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Apartments",
+    "ipa": null,
+    "meaning_en": "apartment",
+    "meaning_vi": null,
+    "forms": [
+      "Apartment",
+      "Apartments"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Wohnung"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Apfel",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Äpfel",
+    "ipa": "ˈapfəl",
+    "meaning_en": "apple (fruit); apple tree; breasts",
+    "meaning_vi": null,
+    "forms": [
+      "Apfel",
+      "Apfels",
+      "Apferl",
+      "Appel",
+      "Äpfel",
+      "Äpfelchen",
+      "Äpfelein",
+      "Äpfeln",
+      "Äpflein"
+    ],
+    "examples": [
+      {
+        "de": "Sie wollen, dass ich einen grünen Apfel esse.",
+        "vi": "Họ muốn tôi ăn một quả táo xanh.",
+        "source": "tatoeba",
+        "tatoeba_id": 13692831
+      },
+      {
+        "de": "Es ist eine Art Apfel.",
+        "vi": "Nó là một loại táo.",
+        "source": "tatoeba",
+        "tatoeba_id": 13112139
+      },
+      {
+        "de": "Der Apfel fällt nicht weit vom Baume.",
+        "vi": "Hổ phụ sinh hổ tử.",
+        "source": "tatoeba",
+        "tatoeba_id": 10849862
+      },
+      {
+        "de": "Der Apfel hat sehr gut geschmeckt.",
+        "vi": "quả táo đó rất ngon",
+        "source": "tatoeba",
+        "tatoeba_id": 9529128
+      },
+      {
+        "de": "Unser Lehrer isst einen roten Apfel.",
+        "vi": "Giáo viên của chúng tôi đang ăn một quả táo đỏ.",
+        "source": "tatoeba",
+        "tatoeba_id": 8842303
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Appartement",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Appartements",
+    "ipa": null,
+    "meaning_en": "suite in a hotel; apartment, flat",
+    "meaning_vi": null,
+    "forms": [
+      "Apartment",
+      "Appartement",
+      "Appartements"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Suite",
+      "Wohnung"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Appetit",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": null,
+    "ipa": "ˌapəˈtiːt",
+    "meaning_en": "appetite",
+    "meaning_vi": null,
+    "forms": [
+      "Appetit",
+      "Appetite",
+      "Appetites",
+      "Appetits"
+    ],
+    "examples": [
+      {
+        "de": "Dank dir habe ich meinen Appetit verloren.",
+        "vi": "Nhờ ơn của bạn tôi hết còn thèm ăn.",
+        "source": "tatoeba",
+        "tatoeba_id": 484
+      },
+      {
+        "de": "Ich hätte auf irgendwas Appetit.",
+        "vi": "Tôi cảm thấy muốn ăn gì đó.",
+        "source": "tatoeba",
+        "tatoeba_id": 8580822
+      },
+      {
+        "de": "Ich habe Appetit auf etwas nicht Süßes.",
+        "vi": "Tôi muốn ăn thứ gì đó không ngọt.",
+        "source": "tatoeba",
+        "tatoeba_id": 4260217
+      },
+      {
+        "de": "Ich habe heute Morgen richtig Appetit.",
+        "vi": "Sáng nay tôi ăn ngon miệng.",
+        "source": "tatoeba",
+        "tatoeba_id": 931148
+      },
+      {
+        "de": "Der Appetit kommt beim Essen.",
+        "vi": "Sự ngon miệng đến trong khi ăn.",
+        "source": "tatoeba",
+        "tatoeba_id": 441858
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "April",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Aprile",
+    "ipa": "aˈpʁɪl",
+    "meaning_en": "April (the fourth month of the Gregorian calendar, following March and preceding May)",
+    "meaning_vi": null,
+    "forms": [
+      "Apr.",
+      "April",
+      "Aprile",
+      "Aprilen",
+      "Aprils"
+    ],
+    "examples": [
+      {
+        "de": "Das Schuljahr beginnt am zehnten April.",
+        "vi": "Năm học bắt đầu vào mùng mười tháng Tư.",
+        "source": "tatoeba",
+        "tatoeba_id": 13832393
+      },
+      {
+        "de": "Das akademische Jahr beginnt in Japan im April.",
+        "vi": "Ở Nhật Bản, học kỳ mới bắt đầu vào tháng 4.",
+        "source": "tatoeba",
+        "tatoeba_id": 1546143
+      },
+      {
+        "de": "Das neue Schuljahr beginnt in Japan im April.",
+        "vi": "Ở Nhật Bản, học kỳ mới bắt đầu vào tháng 4.",
+        "source": "tatoeba",
+        "tatoeba_id": 948950
+      },
+      {
+        "de": "In Japan beginnt das Schuljahr im April.",
+        "vi": "Ở Nhật Bản, học kỳ mới bắt đầu vào tháng 4.",
+        "source": "tatoeba",
+        "tatoeba_id": 867368
+      },
+      {
+        "de": "Das neue Semester beginnt in Japan im April.",
+        "vi": "Ở Nhật Bản, học kỳ mới sẽ bắt đầu vào tháng Tư.",
+        "source": "tatoeba",
+        "tatoeba_id": 724958
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Arbeit",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Arbeiten",
+    "ipa": "ˈaʁbaɪ̯t",
+    "meaning_en": "toil, regularly performed work, regularly pursued economic activity, labor, job, employment, occupation; job, task, assignment; effort, work, human expenditure",
+    "meaning_vi": null,
+    "forms": [
+      "Arbeit",
+      "Arbeiten"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe so viel Arbeit, dass ich eine Stunde länger bleibe.",
+        "vi": "Tôi còn nhiều việc phải làm quá, chắc phải ở lại thêm một tiếng đồng hồ nữa.",
+        "source": "tatoeba",
+        "tatoeba_id": 562
+      },
+      {
+        "de": "Möchten Sie Vollzeit oder Teilzeit arbeiten ?",
+        "vi": "Bạn muốn làm việc toàn thời gian hay bán thời gian?",
+        "source": "tatoeba",
+        "tatoeba_id": 13928919
+      },
+      {
+        "de": "Warst du gestern bei der Arbeit?",
+        "vi": "Hôm qua bạn có đi làm không?",
+        "source": "tatoeba",
+        "tatoeba_id": 13842595
+      },
+      {
+        "de": "Ich kann nicht mehr arbeiten. Ich bin zu müde.",
+        "vi": "Tôi không thể làm việc nữa. Tôi mệt quá rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 13579683
+      },
+      {
+        "de": "Ich muss zuerst diese Arbeit beenden.",
+        "vi": "Tôi phải làm xong công việc này trước.",
+        "source": "tatoeba",
+        "tatoeba_id": 12528057
+      }
+    ],
+    "synonyms": [
+      "Aufgabe",
+      "Aufwand",
+      "Beruf",
+      "Beschäftigung",
+      "Erwerb",
+      "Erwerbsarbeit",
+      "Erwerbstätigkeit",
+      "Mühe",
+      "Pensum",
+      "Werk"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "arbeiten",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaʁbaɪ̯tən",
+    "meaning_en": "to work (to do a specific task by employing physical or mental powers); to work, function, run, operate (to be operative, in action); to ferment (to react, using fermentation)",
+    "meaning_vi": null,
+    "forms": [
+      "arbeit",
+      "arbeite",
+      "arbeiten",
+      "arbeitend",
+      "arbeitest",
+      "arbeitet",
+      "arbeitete",
+      "arbeiteten",
+      "arbeitetest",
+      "arbeitetet",
+      "gearbeitet"
+    ],
+    "examples": [
+      {
+        "de": "Sie arbeitet auch am Sonntag.",
+        "vi": "Anh ấy làm việc vào chủ nhật.",
+        "source": "tatoeba",
+        "tatoeba_id": 13644925
+      },
+      {
+        "de": "Er arbeitet auch am Sonntag.",
+        "vi": "Anh ấy làm việc vào chủ nhật.",
+        "source": "tatoeba",
+        "tatoeba_id": 13644922
+      },
+      {
+        "de": "Schwacher Büffel arbeitet besser als starker Stier.",
+        "vi": "Yếu trâu còn hơn khỏe bò.",
+        "source": "tatoeba",
+        "tatoeba_id": 4170072
+      },
+      {
+        "de": "Obwohl Tom müde war, arbeitete er weiter.",
+        "vi": "Mặc dù Tom đã mệt, anh ấy vẫn làm việc.",
+        "source": "tatoeba",
+        "tatoeba_id": 13972062
+      },
+      {
+        "de": "Die Frau arbeitet nicht.",
+        "vi": "Người phụ nữ không làm việc.",
+        "source": "tatoeba",
+        "tatoeba_id": 13921512
+      }
+    ],
+    "synonyms": [
+      "abrackern",
+      "ackern",
+      "barabern",
+      "chrampfen",
+      "fronen",
+      "hackeln",
+      "klotzen",
+      "malochen",
+      "rackern",
+      "roboten",
+      "schaffen",
+      "schuften",
+      "werken",
+      "wullacken"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "arbeitslos",
+    "level": "A1",
+    "pos": "adj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaʁbaɪ̯tsloːs",
+    "meaning_en": "unemployed (having no work despite being willing to work); on welfare; unemployed; idle (having no work and being supported by social benefits despite being able to work); working less than 15 hours a week, actively looking for a job that is subject to obligatory social-security payments, registered at the national employment agency, and responding to the latter’s placement services",
+    "meaning_vi": null,
+    "forms": [
+      "arbeitslos",
+      "arbeitslose",
+      "arbeitslosem",
+      "arbeitslosen",
+      "arbeitsloser",
+      "arbeitsloses",
+      "das arbeitslose",
+      "dem arbeitslosen",
+      "den arbeitslosen",
+      "der arbeitslose",
+      "der arbeitslosen",
+      "des arbeitslosen",
+      "die arbeitslose",
+      "die arbeitslosen",
+      "ein arbeitsloser",
+      "ein arbeitsloses",
+      "eine arbeitslose",
+      "einem arbeitslosen",
+      "einen arbeitslosen",
+      "einer arbeitslosen",
+      "eines arbeitslosen",
+      "keine arbeitslosen",
+      "keinen arbeitslosen",
+      "keiner arbeitslosen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "beschäftigungslos",
+      "brotlos",
+      "erwerbslos",
+      "stellenlos",
+      "stellungslos",
+      "unbeschäftigt"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Arbeitsplatz",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Arbeitsplätze",
+    "ipa": "ˈʔaʁbaɪ̯tsˌplats",
+    "meaning_en": "workplace; place of employment; employment, job, position",
+    "meaning_vi": null,
+    "forms": [
+      "Arbeitsplatz",
+      "Arbeitsplatze",
+      "Arbeitsplatzes",
+      "Arbeitsplätze",
+      "Arbeitsplätzen"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe den Arbeitsplatz gewechselt.",
+        "vi": "Tôi đã nhảy việc.",
+        "source": "tatoeba",
+        "tatoeba_id": 12400364
+      },
+      {
+        "de": "Ist das hier Toms Arbeitsplatz?",
+        "vi": "Đây có phải nơi Tom làm việc không vậy?",
+        "source": "tatoeba",
+        "tatoeba_id": 8882008
+      },
+      {
+        "de": "Ich suche einen Arbeitsplatz in der Nähe meines Hauses.",
+        "vi": "Tôi đang tìm kiếm một công việc gần nhà.",
+        "source": "tatoeba",
+        "tatoeba_id": 3807021
+      },
+      {
+        "de": "Tom sucht einen Arbeitsplatz.",
+        "vi": "Tom đang tìm việc làm.",
+        "source": "tatoeba",
+        "tatoeba_id": 1693136
+      },
+      {
+        "de": "Hier ist der Arbeitsplatz meines Vaters.",
+        "vi": "Đây là nơi làm việc của bố tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 809969
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Arm",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Arme",
+    "ipa": "arm",
+    "meaning_en": "an arm; anything that resembles an arm; a sleeve",
+    "meaning_vi": null,
+    "forms": [
+      "Arm",
+      "Armb",
+      "Arme",
+      "Armen",
+      "Armes",
+      "Arms",
+      "Ärmchen",
+      "Ärmlein"
+    ],
+    "examples": [
+      {
+        "de": "Sie hat mich heftig in den Arm gekniffen.",
+        "vi": "Cô ấy cấu mạnh vào tay tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 12493672
+      },
+      {
+        "de": "Sie kniff mich heftig in den Arm.",
+        "vi": "Cô ấy cấu mạnh vào tay tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 12493671
+      },
+      {
+        "de": "Er breitete die Arme aus, als wollte er die Welt umarmen.",
+        "vi": "Nó mở rộng hai cánh tay như muốn ôm trọn cả thế giới này.",
+        "source": "tatoeba",
+        "tatoeba_id": 10087497
+      },
+      {
+        "de": "Er sagte, er sei sehr arm.",
+        "vi": "Anh ta nói anh ta thực sự nghèo.",
+        "source": "tatoeba",
+        "tatoeba_id": 8966319
+      },
+      {
+        "de": "Weshalb sind wir arm?",
+        "vi": "Tại sao chúng ta lại nghèo?",
+        "source": "tatoeba",
+        "tatoeba_id": 8081122
+      }
+    ],
+    "synonyms": [
+      "Branche",
+      "Filiale",
+      "Zweig",
+      "Ärmel"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Arzt",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Ärzte",
+    "ipa": "aːɐ̯tst",
+    "meaning_en": "doctor, physician (male or of unspecified gender) (without necessarily having a postgraduate degree)",
+    "meaning_vi": null,
+    "forms": [
+      "Artzt",
+      "Arzt",
+      "Arzte",
+      "Arztes",
+      "Arzts",
+      "Ärzte",
+      "Ärzten",
+      "Ärztin"
+    ],
+    "examples": [
+      {
+        "de": "Er hatte nicht genug Geld für den Arzt.",
+        "vi": "Anh ấy không có đủ tiền đi bác sĩ.",
+        "source": "tatoeba",
+        "tatoeba_id": 13707348
+      },
+      {
+        "de": "Sie hätten Arzt werden sollen.",
+        "vi": "Bạn đáng lẽ ra đã trở thành bác sĩ.",
+        "source": "tatoeba",
+        "tatoeba_id": 12500964
+      },
+      {
+        "de": "Du hättest Arzt werden sollen.",
+        "vi": "Bạn đáng lẽ ra đã trở thành bác sĩ.",
+        "source": "tatoeba",
+        "tatoeba_id": 12500960
+      },
+      {
+        "de": "Sie hielt mich für einen Arzt.",
+        "vi": "Cô ấy đã cho rằng tôi là một bác sỹ.",
+        "source": "tatoeba",
+        "tatoeba_id": 9061240
+      },
+      {
+        "de": "Er hat mir gesagt, dass sein Vater Arzt sei.",
+        "vi": "Anh ấy bảo tôi rằng cha của anh ấy là một bác sĩ.",
+        "source": "tatoeba",
+        "tatoeba_id": 8481189
+      }
+    ],
+    "synonyms": [
+      "Mediziner"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "auch",
+    "level": "A1",
+    "pos": "conj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "aʊ̯x",
+    "meaning_en": "also, too, as well (in addition to whatever or whoever has previously been listed); Used for emphasis.; To confirm a preceding statement by someone else: really, actually, indeed, in fact",
+    "meaning_vi": null,
+    "forms": [
+      "auch"
+    ],
+    "examples": [
+      {
+        "de": "„Ich habe Lust, Karten zu spielen.“ – „Ich auch.“",
+        "vi": "\"Tôi muốn đánh bài.\" \"Tôi cũng vậy.\"",
+        "source": "tatoeba",
+        "tatoeba_id": 330
+      },
+      {
+        "de": "Tu, was auch immer er dir befiehlt.",
+        "vi": "Tốt nhất là hãy làm theo mọi thứ anh ấy nói với bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 419
+      },
+      {
+        "de": "Und doch, auch das Gegenteil ist immer wahr.",
+        "vi": "Nhưng, sự trái ngược cũng luôn luôn có lý.",
+        "source": "tatoeba",
+        "tatoeba_id": 441
+      },
+      {
+        "de": "Woher soll ich wissen, dass du auch dieses Buch brauchst!",
+        "vi": "Biết đâu anh cần quyển sách đó!",
+        "source": "tatoeba",
+        "tatoeba_id": 4170005
+      },
+      {
+        "de": "Ich will auch einen Bummel machen!",
+        "vi": "Anh cũng muốn đi bát phố!",
+        "source": "tatoeba",
+        "tatoeba_id": 10708483
+      }
+    ],
+    "synonyms": [
+      "ebenfalls",
+      "ebenso",
+      "selbst",
+      "sogar"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "auf",
+    "level": "A1",
+    "pos": "prep",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "aʊ̯f",
+    "meaning_en": "[with dative] on, upon (positioned at the top of); [with accusative] on, onto, up (moving to the top of); [with accusative] on (indicating responsibility)",
+    "meaning_vi": null,
+    "forms": [
+      "auf",
+      "auff",
+      "darauf",
+      "hierauf",
+      "uf",
+      "uff",
+      "worauf"
+    ],
+    "examples": [
+      {
+        "de": "Hör auf! Sie fühlt sich dadurch unbehaglich!",
+        "vi": "Đừng! Mày đang làm cô ấy bực bội đấy.",
+        "source": "tatoeba",
+        "tatoeba_id": 281
+      },
+      {
+        "de": "Hör auf, mich als einen \"normalen\" Menschen anzusehen!",
+        "vi": "Đừng coi tôi như người \"bình thường\"!",
+        "source": "tatoeba",
+        "tatoeba_id": 300
+      },
+      {
+        "de": "Lege das Kartenspiel auf den Eichentisch.",
+        "vi": "Làm ơn để bộ bài trên bàn gỗ sồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 339
+      },
+      {
+        "de": "Wie heißt das auf Italienisch?",
+        "vi": "Trong tiếng Ý cái đó nói thế nào?",
+        "source": "tatoeba",
+        "tatoeba_id": 455
+      },
+      {
+        "de": "Du gehst mir auf den Wecker!",
+        "vi": "Mày làm tao tức quá!",
+        "source": "tatoeba",
+        "tatoeba_id": 975
+      }
+    ],
+    "synonyms": [
+      "an",
+      "mal"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "auf sein",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": null,
+    "meaning_vi": null,
+    "forms": [
+      "auf sein"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "kaikki",
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Aufgabe",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Aufgaben",
+    "ipa": "ˈaʊ̯fˌɡaːbə",
+    "meaning_en": "task, job; duty, responsibility, mission, function, purpose; chore, assignment, to-do",
+    "meaning_vi": null,
+    "forms": [
+      "Aufgabe",
+      "Aufgaben"
+    ],
+    "examples": [
+      {
+        "de": "Das ist nicht unsere Aufgabe.",
+        "vi": "Đấy không phải việc của chúng tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 10063492
+      },
+      {
+        "de": "Bitte beende diese Aufgabe bis Montag.",
+        "vi": "Hãy hoàn thành công việc này trước thứ Hai.",
+        "source": "tatoeba",
+        "tatoeba_id": 8959100
+      },
+      {
+        "de": "Das ist eine sehr schwierige Aufgabe für uns.",
+        "vi": "Công việc rất khó cho chúng tôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 2143531
+      },
+      {
+        "de": "Wenngleich er noch jung ist, ist er der Aufgabe gewachsen.",
+        "vi": "Mặc dù anh ta còn trẻ, anh ta vẫn có đủ khà năng để làm nhiệm vụ.",
+        "source": "tatoeba",
+        "tatoeba_id": 2133477
+      },
+      {
+        "de": "Es ist deine Aufgabe, dies zu entscheiden.",
+        "vi": "Quyết định điều đó là trách nhiệm của bạn.",
+        "source": "tatoeba",
+        "tatoeba_id": 1418288
+      }
+    ],
+    "synonyms": [
+      "Auftrag"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aufhören",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaʊ̯fˌhøːrən",
+    "meaning_en": "to listen up; to stop; to quit; to cease; to stop talking about something",
+    "meaning_vi": null,
+    "forms": [
+      "aufgehört",
+      "aufhöre",
+      "aufhören",
+      "aufhörend",
+      "aufhörest",
+      "aufhöret",
+      "aufhörst",
+      "aufhört",
+      "aufhörte",
+      "aufhörten",
+      "aufhörtest",
+      "aufhörtet",
+      "aufzuhören",
+      "hör auf",
+      "höre auf",
+      "hören auf",
+      "hörest auf",
+      "höret auf",
+      "hörst auf",
+      "hört auf",
+      "hörte auf",
+      "hörten auf",
+      "hörtest auf",
+      "hörtet auf"
+    ],
+    "examples": [
+      {
+        "de": "Ich wünschte, ich könnte aufhören, an das, was geschehen ist, zu denken.",
+        "vi": "Tôi ước là tôi có thể thôi nghĩ về chuyện đã xảy ra.",
+        "source": "tatoeba",
+        "tatoeba_id": 12454219
+      },
+      {
+        "de": "Ich wünschte, ich könnte aufhören, daran zu denken, was geschehen ist.",
+        "vi": "Tôi ước là tôi có thể thôi nghĩ về chuyện đã xảy ra.",
+        "source": "tatoeba",
+        "tatoeba_id": 12454217
+      },
+      {
+        "de": "Ich wünschte, ich könnte aufhören, an das zu denken, was geschehen ist.",
+        "vi": "Tôi ước là tôi có thể thôi nghĩ về chuyện đã xảy ra.",
+        "source": "tatoeba",
+        "tatoeba_id": 12454214
+      },
+      {
+        "de": "Ich muss mit dem Prokrastinieren aufhören.",
+        "vi": "Tôi phải ngừng việc trì hoãn lại thôi.",
+        "source": "tatoeba",
+        "tatoeba_id": 10995193
+      },
+      {
+        "de": "Ich wünschte, ich könnte mit dem Rauchen aufhören.",
+        "vi": "Nếu tôi có thể bỏ thuốc được thì tốt biết mấy.",
+        "source": "tatoeba",
+        "tatoeba_id": 6733971
+      }
+    ],
+    "synonyms": [
+      "aufhorchen",
+      "aufmerken",
+      "hinhören",
+      "zuhören"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aufstehen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaufˌʃteːən",
+    "meaning_en": "to get up (move from a sitting or lying position to a standing position; to get up from bed); to rise up, to rebel; to rest (on something)",
+    "meaning_vi": null,
+    "forms": [
+      "aufgestanden",
+      "aufstand",
+      "aufstanden",
+      "aufstandest",
+      "aufstandet",
+      "aufstandst",
+      "aufstehe",
+      "aufstehen",
+      "aufstehend",
+      "aufstehest",
+      "aufstehet",
+      "aufstehst",
+      "aufsteht",
+      "aufstände",
+      "aufständen",
+      "aufständest",
+      "aufständet",
+      "aufstünde",
+      "aufstünden",
+      "aufstündest",
+      "aufstündet",
+      "aufzustehen",
+      "stand auf",
+      "standen auf",
+      "standest auf",
+      "standet auf",
+      "standst auf",
+      "steh auf",
+      "stehe auf",
+      "stehen auf",
+      "stehest auf",
+      "stehet auf",
+      "stehst auf",
+      "steht auf",
+      "stände auf",
+      "ständen auf",
+      "ständest auf",
+      "ständet auf",
+      "stünde auf",
+      "stünden auf",
+      "stündest auf",
+      "stündet auf"
+    ],
+    "examples": [
+      {
+        "de": "Nach dem Aufstehen bin ich schwimmen gegangen.",
+        "vi": "Tôi đi bơi sau khi thức dậy.",
+        "source": "tatoeba",
+        "tatoeba_id": 1248072
+      },
+      {
+        "de": "Sie sollten lieber früh aufstehen.",
+        "vi": "Bạn nên dậy sớm.",
+        "source": "tatoeba",
+        "tatoeba_id": 829319
+      },
+      {
+        "de": "Ihr solltet lieber früh aufstehen.",
+        "vi": "Bạn nên dậy sớm.",
+        "source": "tatoeba",
+        "tatoeba_id": 829318
+      },
+      {
+        "de": "Du solltest lieber früher aufstehen.",
+        "vi": "Bạn nên dậy sớm.",
+        "source": "tatoeba",
+        "tatoeba_id": 576299
+      },
+      {
+        "de": "Die meisten Leute haben große Unlust, früh aufzustehen, selbst wenn sie es müssen.",
+        "vi": "Rất nhiều người ngại dậy sớm, cho dù họ phải làm điều đó.",
+        "source": "tatoeba",
+        "tatoeba_id": 733
+      }
+    ],
+    "synonyms": [
+      "offenstehen",
+      "sich aufrichten",
+      "sich erheben"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Aufzug",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Aufzüge",
+    "ipa": "ˈʔaʊ̯ftsuːk",
+    "meaning_en": "verbal noun of aufziehen; Clipping of Aufzugsanlage: lift, elevator; winding (of a watch)",
+    "meaning_vi": null,
+    "forms": [
+      "Aufzug",
+      "Aufzuge",
+      "Aufzuges",
+      "Aufzugs",
+      "Aufzüge",
+      "Aufzügen"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Akt",
+      "Anmarsch",
+      "Anrücken",
+      "Anzug",
+      "Aufmachung",
+      "Aufmarsch",
+      "Fahrstuhl",
+      "Lift",
+      "Panier",
+      "Prozession"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Auge",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Augen",
+    "ipa": "ˈaʊ̯ɡə",
+    "meaning_en": "eye; germ, bud; eye (potato); dot, pip, spot",
+    "meaning_vi": null,
+    "forms": [
+      "Aug",
+      "Auge",
+      "Augen",
+      "Auges",
+      "Äugelchen",
+      "Äugelein",
+      "Äuglein"
+    ],
+    "examples": [
+      {
+        "de": "Die Schönheit liegt im Auge des Betrachters.",
+        "vi": "Vẻ đẹp chỉ tồn tại trong mắt của những người hiểu được nó.",
+        "source": "tatoeba",
+        "tatoeba_id": 946
+      },
+      {
+        "de": "Mir tut das Auge weh.",
+        "vi": "Mắt tôi bị đau.",
+        "source": "tatoeba",
+        "tatoeba_id": 11432303
+      },
+      {
+        "de": "Da sind die Augen größer als der Magen.",
+        "vi": "No bụng đói con mắt.",
+        "source": "tatoeba",
+        "tatoeba_id": 8492877
+      },
+      {
+        "de": "Dank ihrer Augen kann eine Eule im Dunklen sehr gut sehen.",
+        "vi": "Nhờ đôi mắt của nó, con cú có thể nhìn rất tốt trong bóng tối.",
+        "source": "tatoeba",
+        "tatoeba_id": 13935811
+      },
+      {
+        "de": "Man sagt mir oft, daß ich schöne Augen habe.",
+        "vi": "Mọi người thường nói rằng tôi có đôi mắt đẹp.",
+        "source": "tatoeba",
+        "tatoeba_id": 12508787
+      }
+    ],
+    "synonyms": [
+      "Fettauge"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "August",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Auguste",
+    "ipa": "aʊ̯ˈɡʊst",
+    "meaning_en": "August (the eighth month of the Roman, Julian, and Gregorian calendars, following July and preceding September)",
+    "meaning_vi": null,
+    "forms": [
+      "Aug.",
+      "August",
+      "Auguste",
+      "Augusten",
+      "Augustes",
+      "Augusts"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Erntemonat",
+      "Erntemond",
+      "Ernting",
+      "Sichelmonat",
+      "Ährenmonat"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aus",
+    "level": "A1",
+    "pos": "prep",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "aʊ̯s",
+    "meaning_en": "out of; from (from the inside of something); from (a place; see usage notes below); of; made of; out of",
+    "meaning_vi": null,
+    "forms": [
+      "aus",
+      "daraus",
+      "hieraus",
+      "woraus"
+    ],
+    "examples": [
+      {
+        "de": "Es ist aus zwischen uns, gib mir meinen Ring zurück!",
+        "vi": "Chuyện giữa chúng ta kết thúc rồi. Trả lại tôi chiếc nhẫn!",
+        "source": "tatoeba",
+        "tatoeba_id": 672
+      },
+      {
+        "de": "Aus welchem Land kommst du?",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "source": "tatoeba",
+        "tatoeba_id": 871
+      },
+      {
+        "de": "Ich komme aus Singapur.",
+        "vi": "Tôi từ Singapore đến.",
+        "source": "tatoeba",
+        "tatoeba_id": 342019
+      },
+      {
+        "de": "Sie sieht jung aus.",
+        "vi": "Cô ấy có vẻ trẻ",
+        "source": "tatoeba",
+        "tatoeba_id": 535944
+      },
+      {
+        "de": "Ich fühle mich, als ob ich aus einem Albtraum erwacht wäre.",
+        "vi": "Cảm giác như vừa tỉnh giấc từ một ác mộng.",
+        "source": "tatoeba",
+        "tatoeba_id": 535953
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aus",
+    "level": "A1",
+    "pos": "adv",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "aʊ̯s",
+    "meaning_en": "out; ago",
+    "meaning_vi": null,
+    "forms": [
+      "aus"
+    ],
+    "examples": [
+      {
+        "de": "Das folgende Fragment ist ein Zitat aus einem bekannten Märchen.",
+        "vi": "Trích đoạn sau đây trích dẫn từ một truyện cổ tích nổi tiếng.",
+        "source": "tatoeba",
+        "tatoeba_id": 712063
+      },
+      {
+        "de": "Die Zeit läuft aus.",
+        "vi": "Thời gian đã hết.",
+        "source": "tatoeba",
+        "tatoeba_id": 1343600
+      },
+      {
+        "de": "Ich komme aus Thailand.",
+        "vi": "Tôi đến từ Thái Lan.",
+        "source": "tatoeba",
+        "tatoeba_id": 8098703
+      },
+      {
+        "de": "Es ist aus zwischen uns, gib mir meinen Ring zurück!",
+        "vi": "Chuyện giữa chúng ta kết thúc rồi. Trả lại tôi chiếc nhẫn!",
+        "source": "tatoeba",
+        "tatoeba_id": 672
+      },
+      {
+        "de": "Aus welchem Land kommst du?",
+        "vi": "Bạn đến từ nước nào vậy?",
+        "source": "tatoeba",
+        "tatoeba_id": 871
+      }
+    ],
+    "synonyms": [
+      "her"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aus sein",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": null,
+    "meaning_vi": null,
+    "forms": [
+      "aus sein"
+    ],
+    "examples": [
+      {
+        "de": "Thomas muss aus Australien sein.",
+        "vi": "Tom là phải đến từ Úc.",
+        "source": "tatoeba",
+        "tatoeba_id": 13751488
+      },
+      {
+        "de": "Du scheinst gegen Denkweisen aus dem Ausland voreingenommen zu sein.",
+        "vi": "Dường như em đang có thành kiến với những tư tưởng ngoại lai thì phải.",
+        "source": "tatoeba",
+        "tatoeba_id": 10711179
+      }
+    ],
+    "synonyms": [],
+    "missing": [
+      "kaikki"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ausflug",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Ausflüge",
+    "ipa": "ˈʔaʊ̯sfluːk",
+    "meaning_en": "excursion, outing, short trip",
+    "meaning_vi": null,
+    "forms": [
+      "Ausflug",
+      "Ausfluge",
+      "Ausfluges",
+      "Ausflugs",
+      "Ausflüge",
+      "Ausflügen"
+    ],
+    "examples": [
+      {
+        "de": "Wenn es morgen regnet, wird der Ausflug abgesagt werden.",
+        "vi": "Nếu ngày mai trời mưa, buổi hành quyết sẽ bị hủy.",
+        "source": "tatoeba",
+        "tatoeba_id": 2939094
+      },
+      {
+        "de": "Bei Regen wird der Ausflug abgesagt.",
+        "vi": "Nếu trời mưa, chuyến đi sẽ bị hủy.",
+        "source": "tatoeba",
+        "tatoeba_id": 975154
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ausfüllen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈaʊ̯sˌfʏlən",
+    "meaning_en": "to fill in; to fill completely; to take up; to fill in or fill out (a form); to fill; to fulfil; to live up to (a position, task)",
+    "meaning_vi": null,
+    "forms": [
+      "ausfülle",
+      "ausfüllen",
+      "ausfüllend",
+      "ausfüllest",
+      "ausfüllet",
+      "ausfüllst",
+      "ausfüllt",
+      "ausfüllte",
+      "ausfüllten",
+      "ausfülltest",
+      "ausfülltet",
+      "ausgefüllt",
+      "auszufüllen",
+      "füll aus",
+      "fülle aus",
+      "füllen aus",
+      "füllest aus",
+      "füllet aus",
+      "füllst aus",
+      "füllt aus",
+      "füllte aus",
+      "füllten aus",
+      "fülltest aus",
+      "fülltet aus"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ausgang",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Ausgänge",
+    "ipa": "ˈʔaʊ̯sˌɡaŋ",
+    "meaning_en": "exit (passage from inside to outside); output; outcome",
+    "meaning_vi": null,
+    "forms": [
+      "Ausgang",
+      "Ausgange",
+      "Ausganges",
+      "Ausgangs",
+      "Ausgänge",
+      "Ausgängen"
+    ],
+    "examples": [
+      {
+        "de": "Entschuldigung, wo ist der Ausgang?",
+        "vi": "Xin lỗi, lối thoát hiểm nằm ở đâu?",
+        "source": "tatoeba",
+        "tatoeba_id": 3425107
+      },
+      {
+        "de": "Wo ist der Ausgang?",
+        "vi": "Lối ra ở đâu?",
+        "source": "tatoeba",
+        "tatoeba_id": 882362
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Auskunft",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Auskünfte",
+    "ipa": "ˈaʊ̯sˌkʊnft",
+    "meaning_en": "enquiry; information; information desk",
+    "meaning_vi": null,
+    "forms": [
+      "Auskunft",
+      "Auskünfte",
+      "Auskünften"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ausland",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": null,
+    "ipa": "ˈaʊ̯slant",
+    "meaning_en": "foreign countries (collectively), abroad",
+    "meaning_vi": null,
+    "forms": [
+      "Ausland",
+      "Auslande",
+      "Auslandes",
+      "Auslands"
+    ],
+    "examples": [
+      {
+        "de": "Wir vermissen ihn, weil er im Ausland studiert.",
+        "vi": "Chúng tôi nhớ anh ấy vì anh ấy đi du học.",
+        "source": "tatoeba",
+        "tatoeba_id": 14028017
+      },
+      {
+        "de": "Katharina macht eine Lehre im Ausland als Köchin.",
+        "vi": "Catherine đang học nghề đầu bếp ở nước ngoài.",
+        "source": "tatoeba",
+        "tatoeba_id": 13954197
+      },
+      {
+        "de": "Haben wir Verwandte im Ausland?",
+        "vi": "Chúng ta có họ hàng ở nước ngoài không?",
+        "source": "tatoeba",
+        "tatoeba_id": 13886941
+      },
+      {
+        "de": "Sind Sie schon einmal ins Ausland gereist?",
+        "vi": "Bạn đã đi du lịch nước ngoài bao giờ chưa?",
+        "source": "tatoeba",
+        "tatoeba_id": 12218121
+      },
+      {
+        "de": "Seid ihr schon einmal ins Ausland gereist?",
+        "vi": "Bạn đã đi du lịch nước ngoài bao giờ chưa?",
+        "source": "tatoeba",
+        "tatoeba_id": 12218120
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ausländer",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Ausländer",
+    "ipa": "ˈaʊ̯sˌlɛndɐ",
+    "meaning_en": "foreigner; foreign national, regardless of descent (male or of unspecified gender); allochthone person, regardless of nationality (male or of unspecified gender)",
+    "meaning_vi": null,
+    "forms": [
+      "Ausländer",
+      "Ausländerin",
+      "Ausländern",
+      "Ausländers"
+    ],
+    "examples": [
+      {
+        "de": "Ihr Koch ist ein Ausländer, aber ich weiß nicht, woher er kommt.",
+        "vi": "Đầu bếp của họ là người nước ngoài nhưng tôi không biết anh ấy đến từ đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 10764926
+      },
+      {
+        "de": "Ihr Koch ist ein Ausländer, aber ich weiß nicht, wo er herkommt.",
+        "vi": "Đầu bếp của họ là người nước ngoài nhưng tôi không biết anh ấy đến từ đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 10764924
+      },
+      {
+        "de": "Wir sind keine Ausländer.",
+        "vi": "Chúng tôi không phải người nước ngoài đâu.",
+        "source": "tatoeba",
+        "tatoeba_id": 9468295
+      },
+      {
+        "de": "Alle Kinder sind Ausländer.",
+        "vi": "Trẻ em đều là người nước ngoài.",
+        "source": "tatoeba",
+        "tatoeba_id": 8244527
+      },
+      {
+        "de": "Yuko hat noch nie mit einem Ausländer gesprochen.",
+        "vi": "Yuko chưa từng nói chuyện với người nước ngoài.",
+        "source": "tatoeba",
+        "tatoeba_id": 644212
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ausländisch",
+    "level": "A1",
+    "pos": "adj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": "foreign",
+    "meaning_vi": null,
+    "forms": [
+      "ausländisch",
+      "ausländische",
+      "ausländischem",
+      "ausländischen",
+      "ausländischer",
+      "ausländisches",
+      "das ausländische",
+      "dem ausländischen",
+      "den ausländischen",
+      "der ausländische",
+      "der ausländischen",
+      "des ausländischen",
+      "die ausländische",
+      "die ausländischen",
+      "ein ausländischer",
+      "ein ausländisches",
+      "eine ausländische",
+      "einem ausländischen",
+      "einen ausländischen",
+      "einer ausländischen",
+      "eines ausländischen",
+      "keine ausländischen",
+      "keinen ausländischen",
+      "keiner ausländischen"
+    ],
+    "examples": [
+      {
+        "de": "Er besitzt ein ausländisches Auto.",
+        "vi": "Anh ấy có một cái ô tô nước ngoài.",
+        "source": "tatoeba",
+        "tatoeba_id": 389139
+      },
+      {
+        "de": "Er hat ein ausländisches Auto.",
+        "vi": "Anh ấy có một cái ô tô nước ngoài.",
+        "source": "tatoeba",
+        "tatoeba_id": 362648
+      },
+      {
+        "de": "Der Wechselkurs für ausländische Währungen ändert sich täglich.",
+        "vi": "Tỷ giá hối đoái của ngoại tệ thay đổi mỗi ngày.",
+        "source": "tatoeba",
+        "tatoeba_id": 404618
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ausmachen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaʊ̯smaxn̩",
+    "meaning_en": "to turn off, switch off; to put out, to extinguish; to agree (to), to settle on; to schedule, to make (an appointment)",
+    "meaning_vi": null,
+    "forms": [
+      "ausgemacht",
+      "ausmache",
+      "ausmachen",
+      "ausmachend",
+      "ausmachest",
+      "ausmachet",
+      "ausmachst",
+      "ausmacht",
+      "ausmachte",
+      "ausmachten",
+      "ausmachtest",
+      "ausmachtet",
+      "auszumachen",
+      "mach aus",
+      "mache aus",
+      "machen aus",
+      "machest aus",
+      "machet aus",
+      "machst aus",
+      "macht aus",
+      "machte aus",
+      "machten aus",
+      "machtest aus",
+      "machtet aus"
+    ],
+    "examples": [],
+    "synonyms": [
+      "abmachen",
+      "abschalten",
+      "abstellen",
+      "auslöschen",
+      "ausschalten",
+      "ausstellen",
+      "entdecken",
+      "erblicken",
+      "erlöschen",
+      "löschen",
+      "stören",
+      "verabreden",
+      "vereinbaren",
+      "übereinkommen"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Aussage",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Aussagen",
+    "ipa": "ˈaʊ̯sˌzaːɡə",
+    "meaning_en": "proposition; statement, claim",
+    "meaning_vi": null,
+    "forms": [
+      "Aussage",
+      "Aussagen"
+    ],
+    "examples": [
+      {
+        "de": "Seine gestrigen Aussagen decken sich nicht mit dem, was er letzte Woche sagte.",
+        "vi": "Những gì anh ấy nói hôm qua không nhất quán với những gì anh ấy nói tuần trước.",
+        "source": "tatoeba",
+        "tatoeba_id": 2485034
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aussehen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaʊ̯sˌzeːn̩",
+    "meaning_en": "to look, seem; [with nach (+ dative) ‘like someone/something’]; to look good or bad; depending on intonation",
+    "meaning_vi": null,
+    "forms": [
+      "ausgesehen",
+      "aussah",
+      "aussahen",
+      "aussahst",
+      "aussaht",
+      "aussehe",
+      "aussehen",
+      "aussehend",
+      "aussehest",
+      "aussehet",
+      "ausseht",
+      "aussiehst",
+      "aussieht",
+      "aussähe",
+      "aussähen",
+      "aussähest",
+      "aussähet",
+      "aussähst",
+      "aussäht",
+      "auszusehen",
+      "sah aus",
+      "sahen aus",
+      "sahst aus",
+      "saht aus",
+      "sehe aus",
+      "sehen aus",
+      "sehest aus",
+      "sehet aus",
+      "seht aus",
+      "sieh aus",
+      "siehe aus",
+      "siehst aus",
+      "sieht aus",
+      "sähe aus",
+      "sähen aus",
+      "sähest aus",
+      "sähet aus",
+      "sähst aus",
+      "säht aus"
+    ],
+    "examples": [
+      {
+        "de": "Kannst du dir vorstellen, wie unser Leben ohne Elektrizität aussehen würde?",
+        "vi": "Bạn có thể hình dung được cuộc sống sẽ như thế nào nếu không có điện không?",
+        "source": "tatoeba",
+        "tatoeba_id": 926
+      },
+      {
+        "de": "Man soll Menschen nicht nach dem Aussehen beurteilen.",
+        "vi": "Đừng đánh giá con người qua vẻ bên ngoài của họ",
+        "source": "tatoeba",
+        "tatoeba_id": 14042692
+      },
+      {
+        "de": "Auch wenn sie friedlich aussehen, Männer sind alle Wölfe. Merk dir das!",
+        "vi": "Dù vẻ bề ngoại có đạo mạo đến đâu, lòng dạ đàn ông đều là lang sói cả. Con phải nhớ đấy nhé.",
+        "source": "tatoeba",
+        "tatoeba_id": 3897533
+      },
+      {
+        "de": "Wenn du deine Frisur ändern würdest, könntest du zehn Jahre jünger aussehen.",
+        "vi": "Bạn mà đổi kiểu tóc sẽ trông trẻ ra đến 10 tuổi.",
+        "source": "tatoeba",
+        "tatoeba_id": 3583824
+      },
+      {
+        "de": "Lass dich nicht von ihrem Aussehen täuschen!",
+        "vi": "Đừng bị đánh lừa bởi vẻ bề ngoài của cô ấy.",
+        "source": "tatoeba",
+        "tatoeba_id": 2634587
+      }
+    ],
+    "synonyms": [
+      "ausschauen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "aussteigen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaʊ̯sʃtaɪ̯ɡŋ̩",
+    "meaning_en": "to exit, get off (especially a vehicle); to phase out, to back out, to bail out; to drop out (to opt out of conventional society)",
+    "meaning_vi": null,
+    "forms": [
+      "ausgestiegen",
+      "aussteige",
+      "aussteigen",
+      "aussteigend",
+      "aussteigest",
+      "aussteiget",
+      "aussteigst",
+      "aussteigt",
+      "ausstieg",
+      "ausstiege",
+      "ausstiegen",
+      "ausstiegest",
+      "ausstieget",
+      "ausstiegst",
+      "ausstiegt",
+      "auszusteigen",
+      "steig aus",
+      "steige aus",
+      "steigen aus",
+      "steigest aus",
+      "steiget aus",
+      "steigst aus",
+      "steigt aus",
+      "stieg aus",
+      "stiege aus",
+      "stiegen aus",
+      "stiegest aus",
+      "stieget aus",
+      "stiegst aus",
+      "stiegt aus"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Ausweis",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Ausweise",
+    "ipa": "ˈʔaʊ̯svaɪ̯s",
+    "meaning_en": "identity document; identity card, ID card (a card or badge showing the official identity of the bearer)",
+    "meaning_vi": null,
+    "forms": [
+      "Ausweis",
+      "Ausweise",
+      "Ausweisen",
+      "Ausweises"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe gehört, dass sie keinen Ausweis haben.",
+        "vi": "Tôi nghe nói họ không có hộ chiếu.",
+        "source": "tatoeba",
+        "tatoeba_id": 13724864
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "ausziehen",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈʔaʊ̯st͡siːən",
+    "meaning_en": "to move out, to vacate; to set off, to set out (in order to achieve a higher goal, into war, a period of travels, etc.); to take off (a piece of clothing, shoes)",
+    "meaning_vi": null,
+    "forms": [
+      "ausgezogen",
+      "ausziehe",
+      "ausziehen",
+      "ausziehend",
+      "ausziehest",
+      "ausziehet",
+      "ausziehst",
+      "auszieht",
+      "auszog",
+      "auszogen",
+      "auszogst",
+      "auszogt",
+      "auszuziehen",
+      "auszöge",
+      "auszögen",
+      "auszögest",
+      "auszöget",
+      "auszögst",
+      "auszögt",
+      "zieh aus",
+      "ziehe aus",
+      "ziehen aus",
+      "ziehest aus",
+      "ziehet aus",
+      "ziehst aus",
+      "zieht aus",
+      "zog aus",
+      "zogen aus",
+      "zogst aus",
+      "zogt aus",
+      "zöge aus",
+      "zögen aus",
+      "zögest aus",
+      "zöget aus",
+      "zögst aus",
+      "zögt aus"
+    ],
+    "examples": [
+      {
+        "de": "Wir müssen die Schuhe ausziehen, bevor wir das Haus betreten.",
+        "vi": "Chúng tôi phải cởi giầy trước khi vào nhà.",
+        "source": "tatoeba",
+        "tatoeba_id": 466601
+      }
+    ],
+    "synonyms": [
+      "ablegen",
+      "entkleiden"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Auto",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Autos",
+    "ipa": "ˈaʊ̯to",
+    "meaning_en": "car",
+    "meaning_vi": null,
+    "forms": [
+      "Auto",
+      "Autos"
+    ],
+    "examples": [
+      {
+        "de": "Das Auto fuhr gegen die Mauer.",
+        "vi": "Cái xe đã đụng vô tường.",
+        "source": "tatoeba",
+        "tatoeba_id": 571
+      },
+      {
+        "de": "Das ist nicht unser Auto. Unseres ist weiß.",
+        "vi": "Đấy không phải ô tô của chúng tôi. Của chúng tôi màu trắng cơ.",
+        "source": "tatoeba",
+        "tatoeba_id": 13918034
+      },
+      {
+        "de": "Tom hat viel Geld für sein neues Auto bezahlt.",
+        "vi": "Tom đã trả nhiều tiền để mua chiếc ô tô đó.",
+        "source": "tatoeba",
+        "tatoeba_id": 13576683
+      },
+      {
+        "de": "An Ihrer Stelle würde ich mir ein neues Auto kaufen.",
+        "vi": "Nếu tôi là bạn, tôi sẽ mua một chiếc ô tô mới.",
+        "source": "tatoeba",
+        "tatoeba_id": 12448309
+      },
+      {
+        "de": "An eurer Stelle würde ich mir ein neues Auto kaufen.",
+        "vi": "Nếu tôi là bạn, tôi sẽ mua một chiếc ô tô mới.",
+        "source": "tatoeba",
+        "tatoeba_id": 12448308
+      }
+    ],
+    "synonyms": [
+      "Benzinkutsche",
+      "KFZ",
+      "Karre",
+      "Kiste",
+      "Wagen"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Autobahn",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Autobahnen",
+    "ipa": "ˈʔaʊ̯toˌbaːn",
+    "meaning_en": "motorway (Britain, Ireland, New Zealand), freeway (Australia, Canada, US), highway (parts of the US), expressway (parts of Canada, parts of the US), controlled-access highway",
+    "meaning_vi": null,
+    "forms": [
+      "Autobahn",
+      "Autobahnen"
+    ],
+    "examples": [
+      {
+        "de": "Auf der Autobahn gibt es Stau.",
+        "vi": "Trên đường cao tốc đang xảy ra tình trạng tắc đường.",
+        "source": "tatoeba",
+        "tatoeba_id": 11684480
+      },
+      {
+        "de": "Auf der Autobahn gibt es keine Ampeln.",
+        "vi": "Không có đèn giao thông ở trên đường cao tốc.",
+        "source": "tatoeba",
+        "tatoeba_id": 7457547
+      },
+      {
+        "de": "Es ist Stau auf der Autobahn.",
+        "vi": "Trên đường cao tốc đang xảy ra tình trạng tắc đường.",
+        "source": "tatoeba",
+        "tatoeba_id": 7277074
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Automat",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Automaten",
+    "ipa": "ˌaʊ̯toˈmaːt",
+    "meaning_en": "automaton, machine; vending machine (short for the lengthy and unusual Verkaufsautomat); cashpoint, cash machine (short for Geldautomat)",
+    "meaning_vi": null,
+    "forms": [
+      "Automat",
+      "Automaten"
+    ],
+    "examples": [
+      {
+        "de": "Dieser Automat geht nicht.",
+        "vi": "Cái máy bán hàng tự động này không hoạt động.",
+        "source": "tatoeba",
+        "tatoeba_id": 2864290
+      },
+      {
+        "de": "Dieser Automat funktioniert nicht.",
+        "vi": "Cái máy bán hàng tự động này không hoạt động.",
+        "source": "tatoeba",
+        "tatoeba_id": 738115
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "automatisch",
+    "level": "A1",
+    "pos": "adj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": "automatic",
+    "meaning_vi": null,
+    "forms": [
+      "am automatischsten",
+      "automatisch",
+      "automatische",
+      "automatischem",
+      "automatischen",
+      "automatischer",
+      "automatischere",
+      "automatischerem",
+      "automatischeren",
+      "automatischerer",
+      "automatischeres",
+      "automatisches",
+      "automatischste",
+      "automatischstem",
+      "automatischsten",
+      "automatischster",
+      "automatischstes",
+      "das automatische",
+      "das automatischere",
+      "das automatischste",
+      "dem automatischen",
+      "dem automatischeren",
+      "dem automatischsten",
+      "den automatischen",
+      "den automatischeren",
+      "den automatischsten",
+      "der automatische",
+      "der automatischen",
+      "der automatischere",
+      "der automatischeren",
+      "der automatischste",
+      "der automatischsten",
+      "des automatischen",
+      "des automatischeren",
+      "des automatischsten",
+      "die automatische",
+      "die automatischen",
+      "die automatischere",
+      "die automatischeren",
+      "die automatischste",
+      "die automatischsten",
+      "ein automatischer",
+      "ein automatischerer",
+      "ein automatischeres",
+      "ein automatisches",
+      "ein automatischster",
+      "ein automatischstes",
+      "eine automatische",
+      "eine automatischere",
+      "eine automatischste",
+      "einem automatischen",
+      "einem automatischeren",
+      "einem automatischsten",
+      "einen automatischen",
+      "einen automatischeren",
+      "einen automatischsten",
+      "einer automatischen",
+      "einer automatischeren",
+      "einer automatischsten",
+      "eines automatischen",
+      "eines automatischeren",
+      "eines automatischsten",
+      "keine automatischen",
+      "keine automatischeren",
+      "keine automatischsten",
+      "keinen automatischen",
+      "keinen automatischeren",
+      "keinen automatischsten",
+      "keiner automatischen",
+      "keiner automatischeren",
+      "keiner automatischsten"
+    ],
+    "examples": [
+      {
+        "de": "Es ist automatisch passiert.",
+        "vi": "Nó đã tự động xảy ra.",
+        "source": "tatoeba",
+        "tatoeba_id": 8825929
+      },
+      {
+        "de": "Diese Tür schließt sich automatisch.",
+        "vi": "Cửa này khóa tự động.",
+        "source": "tatoeba",
+        "tatoeba_id": 8586756
+      }
+    ],
+    "synonyms": [
+      "selbsttätig"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Baby",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Babys",
+    "ipa": "ˈbeːbi",
+    "meaning_en": "baby (infant); baby (term of endearment for a lover)",
+    "meaning_vi": null,
+    "forms": [
+      "Babies",
+      "Baby",
+      "Babychen",
+      "Babylein",
+      "Babys"
+    ],
+    "examples": [
+      {
+        "de": "Unser Baby kann noch nicht sprechen.",
+        "vi": "Em bé của chúng tôi vẫn chưa nói được.",
+        "source": "tatoeba",
+        "tatoeba_id": 8438119
+      },
+      {
+        "de": "Sie haben ihr Baby Jenny genannt.",
+        "vi": "Họ đặt tên cho con cô ta là Jenny.",
+        "source": "tatoeba",
+        "tatoeba_id": 4784568
+      },
+      {
+        "de": "Leise sein! Das Baby schläft.",
+        "vi": "Im lặng. Em bé đang ngủ.",
+        "source": "tatoeba",
+        "tatoeba_id": 4401593
+      },
+      {
+        "de": "Mein Baby hat in die Windel gemacht.",
+        "vi": "Con tôi đã tè vào tã của nó.",
+        "source": "tatoeba",
+        "tatoeba_id": 3457374
+      },
+      {
+        "de": "Mein Baby will sprechen.",
+        "vi": "Bé nhà tôi muốn nói chuyện.",
+        "source": "tatoeba",
+        "tatoeba_id": 3036904
+      }
+    ],
+    "synonyms": [
+      "Bébé",
+      "Säugling"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bad",
+    "level": "A1",
+    "pos": "noun",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Bäder",
+    "ipa": "baːt",
+    "meaning_en": "bath; bathroom; pool, baths",
+    "meaning_vi": null,
+    "forms": [
+      "Bad",
+      "Bade",
+      "Bades",
+      "Bads",
+      "Bäder",
+      "Bädern"
+    ],
+    "examples": [
+      {
+        "de": "Du kannst zuerst ins Bad gehen.",
+        "vi": "Bạn có thể vào bồn tắm trước.",
+        "source": "tatoeba",
+        "tatoeba_id": 4703245
+      },
+      {
+        "de": "Ist das Bad sauber?",
+        "vi": "Bồn tắm sạch không?",
+        "source": "tatoeba",
+        "tatoeba_id": 1341906
+      },
+      {
+        "de": "Dieses Haus hat drei Bäder.",
+        "vi": "Ngôi nhà này có ba phòng tắm.",
+        "source": "tatoeba",
+        "tatoeba_id": 13707065
+      }
+    ],
+    "synonyms": [
+      "Badeanstalt",
+      "Badeort",
+      "Badezimmer",
+      "Heilbad",
+      "Kurort",
+      "Schwimmbad"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "baden",
+    "level": "A1",
+    "pos": "verb",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "ˈbaːdn̩",
+    "meaning_en": "to bathe, to give a bath to or have a bath.",
+    "meaning_vi": null,
+    "forms": [
+      "bad",
+      "bade",
+      "baden",
+      "badend",
+      "badest",
+      "badet",
+      "badete",
+      "badeten",
+      "badetest",
+      "badetet",
+      "gebadet"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bahn",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Bahnen",
+    "ipa": "baːn",
+    "meaning_en": "route, trail; railway/railroad or rail transport; short for Eisenbahn a vehicle in rail transport (especially a regional commuter train or tram, otherwise more often Zug or Tram)",
+    "meaning_vi": null,
+    "forms": [
+      "Bahn",
+      "Bahnen"
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bahnhof",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Bahnhöfe",
+    "ipa": "ˈbaːnˌhoːf",
+    "meaning_en": "railway depot, railroad station, railway station, train station",
+    "meaning_vi": null,
+    "forms": [
+      "Bahnhof",
+      "Bahnhofe",
+      "Bahnhofes",
+      "Bahnhofs",
+      "Bahnhöfe",
+      "Bahnhöfen",
+      "Bf",
+      "Bhf"
+    ],
+    "examples": [
+      {
+        "de": "Wie lange braucht man bis zum Bahnhof?",
+        "vi": "Mất bao nhiêu thời gian để đi từ đay tới ga?",
+        "source": "tatoeba",
+        "tatoeba_id": 389
+      },
+      {
+        "de": "Von hier bis zum Bahnhof ist es zu Fuß eine halbe Stunde.",
+        "vi": "Đi bộ từ đây đến nhà ga mất nửa tiếng.",
+        "source": "tatoeba",
+        "tatoeba_id": 10122910
+      },
+      {
+        "de": "Ich sitze im Bahnhof.",
+        "vi": "Tôi đang ngồi trong nhà ga.",
+        "source": "tatoeba",
+        "tatoeba_id": 9542317
+      },
+      {
+        "de": "Ich bin gerade am Bahnhof angekommen.",
+        "vi": "Tôi vừa đến ga.",
+        "source": "tatoeba",
+        "tatoeba_id": 6164371
+      },
+      {
+        "de": "Ich bin unterwegs zum Bahnhof.",
+        "vi": "Tôi đang trên đường đến nhà ga.",
+        "source": "tatoeba",
+        "tatoeba_id": 5445844
+      }
+    ],
+    "synonyms": [
+      "Bahnstation",
+      "Bahnstelle",
+      "Eisenbahnhof",
+      "Eisenbahnstation",
+      "Verkehrsstation",
+      "Zugangsstelle"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bahnsteig",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Bahnsteige",
+    "ipa": "ˈbaːnʃtaɪ̯k",
+    "meaning_en": "train platform",
+    "meaning_vi": null,
+    "forms": [
+      "Bahnsteig",
+      "Bahnsteige",
+      "Bahnsteigen",
+      "Bahnsteiges",
+      "Bahnsteigs"
+    ],
+    "examples": [],
+    "synonyms": [
+      "Perron"
+    ],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "bald",
+    "level": "A1",
+    "pos": "adv",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": "balt",
+    "meaning_en": "soon (near in time); almost (of a changing value that is predicted to reach said number soon); indicates a rapid alternation of states; now ..., now ...; sometimes ..., sometimes ...",
+    "meaning_vi": null,
+    "forms": [
+      "am ehesten",
+      "bald",
+      "eher"
+    ],
+    "examples": [
+      {
+        "de": "Lächeln Sie! Bald ist Wochenende!",
+        "vi": "Cười lên nào! Gần đến cuối tuần rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 13808428
+      },
+      {
+        "de": "Lächelt! Bald ist Wochenende!",
+        "vi": "Cười lên nào! Gần đến cuối tuần rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 13808427
+      },
+      {
+        "de": "Lächle! Bald ist Wochenende!",
+        "vi": "Cười lên nào! Gần đến cuối tuần rồi.",
+        "source": "tatoeba",
+        "tatoeba_id": 13808426
+      },
+      {
+        "de": "Bald geht es weiter.",
+        "vi": "Nó sắp tiếp tục.",
+        "source": "tatoeba",
+        "tatoeba_id": 12874620
+      },
+      {
+        "de": "Sie war schon bald wieder verheiratet.",
+        "vi": "Cô ta đã sớm tái hôn.",
+        "source": "tatoeba",
+        "tatoeba_id": 12184551
+      }
+    ],
+    "synonyms": [
+      "beinahe",
+      "demnächst",
+      "fast",
+      "in Kürze",
+      "mal",
+      "manchmal",
+      "zeitnah"
+    ],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Balkon",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Balkone",
+    "ipa": "balˈkɔŋ",
+    "meaning_en": "balcony (an accessible structure extending from a building, especially outside a window or overlooking a stage)",
+    "meaning_vi": null,
+    "forms": [
+      "Balkon",
+      "Balkone",
+      "Balkonen",
+      "Balkons",
+      "Blk."
+    ],
+    "examples": [],
+    "synonyms": [],
+    "missing": [
+      "examples"
+    ],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Banane",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Bananen",
+    "ipa": "baˈnaːnə",
+    "meaning_en": "banana (fruit or tree)",
+    "meaning_vi": null,
+    "forms": [
+      "Banana",
+      "Banane",
+      "Bananen",
+      "Banänchen"
+    ],
+    "examples": [
+      {
+        "de": "Ich habe eine Banane gegessen.",
+        "vi": "Tôi đã ăn một quả chuối.",
+        "source": "tatoeba",
+        "tatoeba_id": 5265649
+      },
+      {
+        "de": "Ich bin eine Banane.",
+        "vi": "Tôi là chuối.",
+        "source": "tatoeba",
+        "tatoeba_id": 3682683
+      },
+      {
+        "de": "Die Zeiten fliegen wie ein Pfeil, die Fruchtfliegen zur Banane.",
+        "vi": "Thời gian trôi nhanh như mũi tên, ruồi giấm thích chuối.",
+        "source": "tatoeba",
+        "tatoeba_id": 1599618
+      },
+      {
+        "de": "Tom kauft gerade Bananen.",
+        "vi": "Tom đang mua chuối.",
+        "source": "tatoeba",
+        "tatoeba_id": 12407926
+      },
+      {
+        "de": "Ich habe Bananen gekauft.",
+        "vi": "Tôi mua chuối.",
+        "source": "tatoeba",
+        "tatoeba_id": 8240822
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bank",
+    "level": "A1",
+    "pos": "noun",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Bänke",
+    "ipa": "baŋk",
+    "meaning_en": "bench (which people sit on); pew; workbench (which things can be set down on); bank (collection of material in a body of water)",
+    "meaning_vi": null,
+    "forms": [
+      "Bank",
+      "Bänkchen",
+      "Bänke",
+      "Bänken"
+    ],
+    "examples": [
+      {
+        "de": "Tom setzte sich auf eine Bank und schlug die Beine übereinander.",
+        "vi": "Tom đã ngồi trên ghế bành và vắt chéo chân.",
+        "source": "tatoeba",
+        "tatoeba_id": 2853480
+      },
+      {
+        "de": "Sie zahlt jeden Monat 10.000 Yen auf der Bank ein.",
+        "vi": "Mỗi tháng cô ta gửi 10.000 yên vào ngân hàng.",
+        "source": "tatoeba",
+        "tatoeba_id": 1440591
+      },
+      {
+        "de": "Er betrat als Wächter verkleidet die Bank.",
+        "vi": "Anh ta cải trang thành bảo vệ vào ngân hàng.",
+        "source": "tatoeba",
+        "tatoeba_id": 1421110
+      },
+      {
+        "de": "Meine Schwester ist Sekretärin in einer Bank.",
+        "vi": "Chị của tôi làm thư ký ở ngân hàng.",
+        "source": "tatoeba",
+        "tatoeba_id": 966153
+      },
+      {
+        "de": "Er arbeitet in der Bank.",
+        "vi": "Tôi đang làm việc ở ngân hàng.",
+        "source": "tatoeba",
+        "tatoeba_id": 725761
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "bar",
+    "level": "A1",
+    "pos": "adj",
+    "article": null,
+    "gender": null,
+    "plural": null,
+    "ipa": null,
+    "meaning_en": "in cash; pure",
+    "meaning_vi": null,
+    "forms": [
+      "bar"
+    ],
+    "examples": [
+      {
+        "de": "Normalerweise zahle ich eher mit Kreditkarte als bar.",
+        "vi": "Thường tôi trả bằng thẻ tín dụng hơn trả tiền mặt.",
+        "source": "tatoeba",
+        "tatoeba_id": 647270
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  },
+  {
+    "lemma": "Bauch",
+    "level": "A1",
+    "pos": "noun",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Bäuche",
+    "ipa": "baʊ̯x",
+    "meaning_en": "abdomen, belly",
+    "meaning_vi": null,
+    "forms": [
+      "Bauch",
+      "Bauche",
+      "Bauches",
+      "Bauchs",
+      "Bäuche",
+      "Bäuchelchen",
+      "Bäuchen",
+      "Bäuchlein"
+    ],
+    "examples": [
+      {
+        "de": "Mein Bauch tut weh.",
+        "vi": "Tôi bị đau bụng.",
+        "source": "tatoeba",
+        "tatoeba_id": 544527
+      },
+      {
+        "de": "Als ich im Bauch meiner Mutter war, schaute ich durch ihren Bauchnabel auf das Haus, in dem ich geboren werden würde und dachte: „Dorthin werde ich keinesfalls gehen.“",
+        "vi": "Lúc tôi còn đang ở trong bụng mẹ, tôi thử nhìn ngôi nhà mà tôi sẽ được sinh ra qua lỗ rốn, rồi tôi nghĩ: \"Còn lâu mình mới đi đến cái nhà này.\"",
+        "source": "tatoeba",
+        "tatoeba_id": 1442534
+      }
+    ],
+    "synonyms": [],
+    "missing": [],
+    "sources": {
+      "level": "DWDS/Goethe",
+      "dictionary": "Kaikki/Wiktionary",
+      "examples": "Tatoeba"
+    }
+  }
+]

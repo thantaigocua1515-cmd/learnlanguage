@@ -227,3 +227,4 @@ A2_WORDS = [
     ("mutig", None, None, "/ˈmuːtɪç/", "Adjective", "A2", "Dũng cảm", "brave", "Eine mutige Tat.", "Một hành động dũng cảm."),
     ("feige", None, None, "/ˈfaɪ̯ɡə/", "Adjective", "A2", "Hèn nhát", "cowardly", "Feiges Verhalten.", "Hành vi hèn nhát.")
 ]
+

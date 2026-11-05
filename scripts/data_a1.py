@@ -256,3 +256,4 @@ A1_WORDS = [
     ("nah", None, None, "/naː/", "Adjective", "A1", "Gần", "near", "Ganz nah sein.", "Ở rất gần."),
     ("weit", None, None, "/vaɪ̯t/", "Adjective", "A1", "Xa", "far", "Weit weg.", "Ở xa xôi.")
 ]
+

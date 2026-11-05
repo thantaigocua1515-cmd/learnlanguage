@@ -33,3 +33,4 @@ def add_entry(w, g, pl, ipa, pos, lvl, vi, en, ex_de, ex_vi):
     return True
 
 print("Building 1000 vocabulary dataset...")
+

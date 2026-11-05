@@ -161,3 +161,4 @@ B2_C1_C2_WORDS = [
     ("idiosynkratisch", None, None, "/idjozʏŋˈkʁaːtɪʃ/", "Adjective", "C2", "Đặc dị, phong cách riêng biệt", "idiosyncratic", "Ein idiosynkratischer Schreibstil.", "Một phong cách hành văn đặc dị riêng có."),
     ("akribisch", None, None, "/aˈkʁiːbɪʃ/", "Adjective", "C2", "Cực kỳ chi li chu tất", "meticulous", "Akribische Detailarbeit.", "Công việc đòi hỏi sự tỉ mỉ tới từng chi tiết nhỏ.")
 ]
+

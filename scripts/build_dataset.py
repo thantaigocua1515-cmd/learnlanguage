@@ -322,3 +322,4 @@ print(f"Total entries after A1: {len(entries)}")
 # Write base progress to check
 with open("/home/jikay/Desktop/LingoLearning/scripts/vocab_check.json", "w") as f:
     json.dump(entries, f)
+

@@ -129,3 +129,4 @@ with open("/home/jikay/Desktop/LingoLearning/scripts/vocab_database.json", "w", 
     json.dump(vocab_list, f, ensure_ascii=False, indent=2)
 
 print(f"Recorded initial {len(vocab_list)} words.")
+

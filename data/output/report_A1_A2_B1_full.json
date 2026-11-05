@@ -1,0 +1,422 @@
+{
+  "total_words": 3315,
+  "by_level": {
+    "A1": 847,
+    "A2": 616,
+    "B1": 1852
+  },
+  "kaikki_match_count": 3193,
+  "kaikki_match_percent": 96.32,
+  "with_examples_count": 2221,
+  "with_examples_percent": 67.0,
+  "with_meaning_vi_count": 0,
+  "with_meaning_vi_percent": 0.0,
+  "without_meaning_vi_percent": 100.0,
+  "missing_data_count": 50,
+  "first_50_missing_words": [
+    {
+      "lemma": "Abfahrt",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Abflug",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Absender",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "achtzig",
+      "level": "A1",
+      "pos": "num",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "anbieten",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "anklicken",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "ankreuzen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anrede",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anrufbeantworter",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Ansage",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anschluss",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Apartment",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Appartement",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "arbeitslos",
+      "level": "A1",
+      "pos": "adj",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "auf sein",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "Aufzug",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "August",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "aus sein",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "Auskunft",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bahn",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bahnsteig",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Balkon",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Beamte",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "best",
+      "level": "A1",
+      "pos": "adj",
+      "missing": [
+        "kaikki",
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bogen",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Brötchen",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "buchstabieren",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bäckerei",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "bös",
+      "level": "A1",
+      "pos": "adj",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "c",
+      "level": "A1",
+      "pos": "symbol",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "cm",
+      "level": "A1",
+      "pos": "symbol",
+      "missing": [
+        "kaikki",
+        "examples"
+      ]
+    },
+    {
+      "lemma": "ct",
+      "level": "A1",
+      "pos": "symbol",
+      "missing": [
+        "kaikki",
+        "examples"
+      ]
+    },
+    {
+      "lemma": "danke",
+      "level": "A1",
+      "pos": "particle",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "Doppelzimmer",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "drucken",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Drucker",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Durchsage",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "einhundert",
+      "level": "A1",
+      "pos": "num",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "eintausend",
+      "level": "A1",
+      "pos": "num",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Eintritt",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Empfänger",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Europäer",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Familienname",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Fax",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Formular",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Frühjahr",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Führung",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "g",
+      "level": "A1",
+      "pos": "symbol",
+      "missing": [
+        "kaikki",
+        "examples"
+      ]
+    },
+    {
+      "lemma": "geboren",
+      "level": "A1",
+      "pos": "adj",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "Geburtsjahr",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    }
+  ]
+}

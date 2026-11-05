@@ -28,3 +28,13 @@ yarn-error.log*
 *.swp
 *.swo
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Data Pipeline Cache (raw datasets > 1GB)
+data/cache/
+
+

@@ -112,3 +112,4 @@ B1_WORDS = [
     ("theoretisch", None, None, "/teoˈʁeːtɪʃ/", "Adjective", "B1", "Lý thuyết", "theoretical", "Theoretisches Wissen.", "Kiến thức lý thuyết."),
     ("praktisch", None, None, "/ˈpʁaktɪʃ/", "Adjective", "B1", "Thực hành, thực tế", "practical", "Praktische Erfahrung.", "Kinh nghiệm thực tiễn.")
 ]
+

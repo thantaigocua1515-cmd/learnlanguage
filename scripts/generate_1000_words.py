@@ -116,3 +116,4 @@ LEVELS_DISTRIBUTION = [
 ]
 
 print("Script template ready.")
+

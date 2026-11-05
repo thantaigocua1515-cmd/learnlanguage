@@ -1,6 +1,16 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/vocab/:lemma/examples",
+      "destination": "/api/vocab.js?lemma=:lemma&type=examples"
+    },
+    {
+      "source": "/api/vocab/:lemma",
+      "destination": "/api/vocab.js?lemma=:lemma"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

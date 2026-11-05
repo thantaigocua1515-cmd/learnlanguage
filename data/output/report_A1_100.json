@@ -1,0 +1,249 @@
+{
+  "total_words": 100,
+  "by_level": {
+    "A1": 100
+  },
+  "kaikki_match_count": 98,
+  "kaikki_match_percent": 98.0,
+  "with_examples_count": 72,
+  "with_examples_percent": 72.0,
+  "with_meaning_vi_count": 0,
+  "with_meaning_vi_percent": 0.0,
+  "without_meaning_vi_percent": 100.0,
+  "missing_data_count": 29,
+  "first_50_missing_words": [
+    {
+      "lemma": "Abfahrt",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Abflug",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "abgeben",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "abholen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Absender",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "achtzig",
+      "level": "A1",
+      "pos": "num",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "anbieten",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "anklicken",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "ankreuzen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "anmachen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anrede",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anrufbeantworter",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Ansage",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Anschluss",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Apartment",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Appartement",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "arbeitslos",
+      "level": "A1",
+      "pos": "adj",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "auf sein",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "kaikki",
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Aufzug",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "August",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "aus sein",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "kaikki"
+      ]
+    },
+    {
+      "lemma": "ausfüllen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Auskunft",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "ausmachen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "aussteigen",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "baden",
+      "level": "A1",
+      "pos": "verb",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bahn",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Bahnsteig",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    },
+    {
+      "lemma": "Balkon",
+      "level": "A1",
+      "pos": "noun",
+      "missing": [
+        "examples"
+      ]
+    }
+  ]
+}

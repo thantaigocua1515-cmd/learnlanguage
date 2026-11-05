@@ -241,3 +241,4 @@ print(f"Total entries after A2: {len(vocab)}")
 # Save intermediate
 with open("/home/jikay/Desktop/LingoLearning/scripts/vocab_check_a2.json", "w") as f:
     json.dump(vocab, f)
+

@@ -84,6 +84,53 @@
     <!-- Populated dynamically by app.js -->
   </main>
 
+  <!-- Desktop / Web Footer with Attribution -->
+  <footer class="container-xl py-4 mt-5 border-top text-center text-muted small d-none d-md-block">
+    <div class="d-flex justify-content-between align-items-center">
+      <span>&copy; 2026 <strong>LingoLearning</strong> — Nền tảng học Tiếng Đức Gamification A1–B1.</span>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-decoration-none text-muted" data-bs-toggle="modal" data-bs-target="#attributionModal">
+          <i class="bi bi-shield-check text-primary me-1"></i> Nguồn dữ liệu & Giấy phép mở
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Attribution Modal -->
+  <div class="modal fade" id="attributionModal" tabindex="-1" aria-labelledby="attributionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="attributionModalLabel">
+            <i class="bi bi-award-fill text-primary me-2"></i>Nguồn Dữ Liệu & Giấy Phép Mở (Attribution)
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-start">
+          <p class="text-secondary">Dự án <strong>LingoLearning</strong> tích hợp dữ liệu từ 3 nguồn mở uy tín theo đúng quy chuẩn pháp lý và giấy phép mã nguồn mở:</p>
+          <div class="list-group mb-3">
+            <div class="list-group-item p-3">
+              <h6 class="fw-bold mb-1 text-primary"><i class="bi bi-check-circle-fill me-2"></i>DWDS & Goethe-Institut (A1, A2, B1 Wortliste)</h6>
+              <p class="small text-muted mb-0">Cung cấp khung cấp độ CEFR chuẩn, danh mục từ vựng và mạo từ (der/die/das). Dự án chỉ sử dụng danh sách từ vựng chuẩn, không sao chép câu ví dụ từ tài liệu bản quyền của viện Goethe.</p>
+            </div>
+            <div class="list-group-item p-3">
+              <h6 class="fw-bold mb-1 text-success"><i class="bi bi-check-circle-fill me-2"></i>Kaikki.org / Wiktionary (CC BY-SA 3.0)</h6>
+              <p class="small text-muted mb-0">Cung cấp phiên âm quốc tế IPA, bảng biến hình chia động từ/số nhiều danh từ (forms), và định nghĩa từ loại.</p>
+            </div>
+            <div class="list-group-item p-3">
+              <h6 class="fw-bold mb-1 text-danger"><i class="bi bi-check-circle-fill me-2"></i>Tatoeba Project (CC BY 2.0 FR)</h6>
+              <p class="small text-muted mb-0">Cung cấp câu ví dụ tiếng Đức ngữ cảnh thực tế kèm bản dịch tiếng Việt đóng góp bởi cộng đồng với định danh <code>tatoeba_id</code>.</p>
+            </div>
+          </div>
+          <div class="text-muted small">Chi tiết đầy đủ xem tại tập tin <code>ATTRIBUTION.md</code> trong kho mã nguồn.</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Mobile Bottom Navigation Bar (App Experience) -->
   <div class="mobile-bottom-nav">
     <a href="#" class="mobile-nav-item active" data-nav-target="learn">
