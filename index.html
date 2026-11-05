@@ -190,19 +190,22 @@
           <div class="tab-content" id="authTabContent">
             <!-- Tab: Sign In -->
             <div class="tab-pane fade show active" id="pills-login" role="tabpanel">
+              <div class="p-2 mb-3 rounded bg-body-tertiary border text-center small text-muted">
+                <i class="bi bi-shield-check text-warning me-1"></i> Tài khoản Admin: <strong>admin</strong> | Mật khẩu: <strong>admin123</strong>
+              </div>
               <form id="form-login">
                 <div class="mb-3">
-                  <label class="form-label small fw-bold">Email</label>
+                  <label class="form-label small fw-bold">Tài khoản / Email</label>
                   <div class="input-group">
-                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
-                    <input type="email" class="form-control form-control-gamify" id="login-email" placeholder="hocvien@lingolearning.de" required>
+                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control form-control-gamify" id="login-email" placeholder="admin hoặc email@domain.com" required>
                   </div>
                 </div>
                 <div class="mb-3">
                   <label class="form-label small fw-bold">Mật khẩu</label>
                   <div class="input-group">
-                    <span class="input-group-text"><i class="bi bi-key"></i></span>
-                    <input type="password" class="form-control form-control-gamify" id="login-password" placeholder="••••••••" required>
+                    <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                    <input type="password" class="form-control form-control-gamify" id="login-password" placeholder="admin123" required>
                   </div>
                 </div>
                 <button type="submit" class="btn btn-3d btn-3d-primary w-100 mb-3" id="btn-submit-login">

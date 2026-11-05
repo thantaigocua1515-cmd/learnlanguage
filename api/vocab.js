@@ -69,7 +69,7 @@ export default async function handler(req, res) {
     if (lemma && type === 'examples') {
       try {
         const query = `
-          SELECT e.id, e.sentence_de, e.translation_vi, e.source, e.tatoeba_id
+          SELECT e.id, e.sentence_de, e.translation_vi, e.sentence_de AS de, e.translation_vi AS vi, e.source, e.tatoeba_id
           FROM public.word_examples e
           JOIN public.words w ON e.word_id = w.id
           WHERE LOWER(w.lemma) = LOWER($1);
@@ -90,7 +90,14 @@ export default async function handler(req, res) {
         return res.status(200).json({
           lemma: found.lemma,
           total: (found.examples || []).length,
-          examples: found.examples || []
+          examples: (found.examples || []).map(ex => ({
+            sentence_de: ex.sentence_de || ex.de,
+            translation_vi: ex.translation_vi || ex.vi,
+            de: ex.de || ex.sentence_de,
+            vi: ex.vi || ex.translation_vi,
+            source: ex.source || 'tatoeba',
+            tatoeba_id: ex.tatoeba_id || null
+          }))
         });
       }
     }

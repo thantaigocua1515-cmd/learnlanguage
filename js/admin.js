@@ -71,13 +71,27 @@ class AdminApp {
       <div class="gamify-card p-5 text-center my-5" style="max-width: 550px; margin: 0 auto;">
         <i class="bi bi-shield-lock-fill display-1 text-warning mb-3"></i>
         <h3 class="fw-bold mb-2">Quyền Truy Cập Bị Giới Hạn</h3>
-        <p class="text-secondary small mb-4">
-          Khu vực AdminCP chỉ dành riêng cho tài khoản có vai trò <strong>Admin</strong>. Tài khoản hiện tại của bạn là khách hoặc học viên.
+        <p class="text-secondary small mb-3">
+          Khu vực AdminCP chỉ dành riêng cho tài khoản có vai trò <strong>Admin</strong>.
         </p>
-        <div class="d-flex justify-content-center gap-2">
-          <button class="btn btn-3d btn-3d-warning px-4" id="btn-admin-quick-login">
-            <i class="bi bi-key-fill me-1"></i> Đăng nhập quyền Admin (1-Click)
+
+        <div class="p-2 mb-3 rounded bg-body-tertiary border text-center small text-muted" style="max-width: 340px; margin: 0 auto;">
+          <i class="bi bi-shield-check text-warning me-1"></i> Tài khoản Admin: <strong>admin</strong> | Mật khẩu: <strong>admin123</strong>
+        </div>
+
+        <form id="admin-direct-login" class="text-start mb-3" style="max-width: 340px; margin: 0 auto;">
+          <div class="mb-2">
+            <input type="text" class="form-control form-control-gamify" id="admin-input-user" value="admin" placeholder="Tài khoản">
+          </div>
+          <div class="mb-2">
+            <input type="password" class="form-control form-control-gamify" id="admin-input-pass" value="admin123" placeholder="Mật khẩu">
+          </div>
+          <button type="submit" class="btn btn-3d btn-3d-warning w-100">
+            <i class="bi bi-box-arrow-in-right me-1"></i> Đăng nhập Admin
           </button>
+        </form>
+
+        <div class="d-flex justify-content-center gap-2">
           <a href="index.html" class="btn btn-outline-secondary rounded-pill px-4">
             Về trang học viên
           </a>
@@ -85,9 +99,16 @@ class AdminApp {
       </div>
     `;
 
-    document.getElementById('btn-admin-quick-login')?.addEventListener('click', () => {
-      authService.quickLogin('admin');
-      this.renderCurrentTab();
+    document.getElementById('admin-direct-login')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const user = document.getElementById('admin-input-user').value.trim();
+      const pass = document.getElementById('admin-input-pass').value.trim();
+      try {
+        await authService.signIn(user, pass);
+        this.renderCurrentTab();
+      } catch (err) {
+        alert('Đăng nhập thất bại: ' + err.message);
+      }
     });
   }
 

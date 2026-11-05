@@ -81,12 +81,12 @@ class AuthService {
    */
   quickLogin(role = 'student') {
     const user = {
-      id: role === 'admin' ? 'usr-admin-01' : 'usr-student-01',
+      id: role === 'admin' ? 'usr-admin-default' : 'usr-student-01',
       email: role === 'admin' ? 'admin@lingolearning.de' : 'hocvien@lingolearning.de',
       fullName: role === 'admin' ? 'Quản Trị Viên (Admin)' : 'Học Viên Tiếng Đức',
       role: role === 'admin' ? 'admin' : 'student',
-      xp: role === 'admin' ? 850 : 250,
-      streak: 5,
+      xp: role === 'admin' ? 1000 : 250,
+      streak: role === 'admin' ? 7 : 5,
       hearts: 5,
       isGuest: false,
       targetLevel: 'A1',
@@ -98,17 +98,40 @@ class AuthService {
 
   /**
    * Sign In (Supabase Auth or Local Mock)
+   * Default admin account: username/email 'admin', password 'admin123'
    */
-  async signIn(email, password) {
-    if (supabaseManager.isConnected && supabaseManager.client) {
+  async signIn(emailOrUsername, password) {
+    const input = (emailOrUsername || '').trim();
+    const pwd = (password || '').trim();
+
+    // 1. Check Default Admin Account (admin / admin123)
+    if ((input.toLowerCase() === 'admin' || input.toLowerCase() === 'admin@lingolearning.de') && pwd === 'admin123') {
+      const adminUser = {
+        id: 'usr-admin-default',
+        email: 'admin@lingolearning.de',
+        fullName: 'Quản Trị Viên (Admin)',
+        role: 'admin',
+        xp: 1000,
+        streak: 7,
+        hearts: 5,
+        isGuest: false,
+        targetLevel: 'A1',
+        currentLang: 'de'
+      };
+      this.saveSession(adminUser);
+      return adminUser;
+    }
+
+    // 2. Check Supabase Auth if connected and input is valid email
+    if (supabaseManager.isConnected && supabaseManager.client && input.includes('@')) {
       try {
-        const { data, error } = await supabaseManager.client.auth.signInWithPassword({ email, password });
+        const { data, error } = await supabaseManager.client.auth.signInWithPassword({ email: input, password: pwd });
         if (error) throw error;
-        const isAdminRole = email.toLowerCase().includes('admin');
+        const isAdminRole = input.toLowerCase().includes('admin');
         const user = {
           id: data.user.id,
           email: data.user.email,
-          fullName: data.user.user_metadata?.full_name || email.split('@')[0],
+          fullName: data.user.user_metadata?.full_name || input.split('@')[0],
           role: isAdminRole ? 'admin' : 'student',
           xp: 150,
           streak: 2,
@@ -124,14 +147,14 @@ class AuthService {
       }
     }
 
-    // Local authentication fallback
-    const isAdminRole = email.toLowerCase().includes('admin');
+    // 3. Local authentication fallback
+    const isAdminRole = input.toLowerCase() === 'admin' || input.toLowerCase().includes('admin');
     const user = {
       id: 'usr-' + Date.now(),
-      email,
-      fullName: email.split('@')[0],
+      email: input.includes('@') ? input : `${input}@lingolearning.de`,
+      fullName: input.includes('@') ? input.split('@')[0] : input,
       role: isAdminRole ? 'admin' : 'student',
-      xp: 150,
+      xp: isAdminRole ? 1000 : 150,
       streak: 2,
       hearts: 5,
       isGuest: false,
