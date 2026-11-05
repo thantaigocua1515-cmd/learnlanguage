@@ -5,6 +5,8 @@
 
 import { CONFIG } from './config.js';
 import { sound } from './services/soundService.js';
+import { authService } from './services/authService.js';
+import { examService } from './services/examService.js';
 import { dataService } from './api/dataService.js';
 import { tatoebaApi } from './api/tatoeba.js';
 import { supabaseManager } from './supabaseClient.js';
@@ -51,11 +53,42 @@ class AdminApp {
   }
 
   renderCurrentTab() {
+    if (!authService.isAdmin()) {
+      this.renderAccessDenied();
+      return;
+    }
+
     if (this.currentTab === 'dashboard') this.renderDashboard();
     else if (this.currentTab === 'tatoeba') this.renderTatoebaImporter();
     else if (this.currentTab === 'vocabulary') this.renderVocabulary();
     else if (this.currentTab === 'sentences') this.renderSentences();
+    else if (this.currentTab === 'exams') this.renderExamsManagement();
     else if (this.currentTab === 'supabase') this.renderSupabaseSettings();
+  }
+
+  renderAccessDenied() {
+    this.container.innerHTML = `
+      <div class="gamify-card p-5 text-center my-5" style="max-width: 550px; margin: 0 auto;">
+        <i class="bi bi-shield-lock-fill display-1 text-warning mb-3"></i>
+        <h3 class="fw-bold mb-2">Quyền Truy Cập Bị Giới Hạn</h3>
+        <p class="text-secondary small mb-4">
+          Khu vực AdminCP chỉ dành riêng cho tài khoản có vai trò <strong>Admin</strong>. Tài khoản hiện tại của bạn là khách hoặc học viên.
+        </p>
+        <div class="d-flex justify-content-center gap-2">
+          <button class="btn btn-3d btn-3d-warning px-4" id="btn-admin-quick-login">
+            <i class="bi bi-key-fill me-1"></i> Đăng nhập quyền Admin (1-Click)
+          </button>
+          <a href="index.html" class="btn btn-outline-secondary rounded-pill px-4">
+            Về trang học viên
+          </a>
+        </div>
+      </div>
+    `;
+
+    document.getElementById('btn-admin-quick-login')?.addEventListener('click', () => {
+      authService.quickLogin('admin');
+      this.renderCurrentTab();
+    });
   }
 
   /* ==============================================================================
@@ -525,6 +558,179 @@ class AdminApp {
         const text = e.currentTarget.getAttribute('data-text');
         const audio = e.currentTarget.getAttribute('data-audio');
         sound.speak(text, audio, 'de-DE');
+      });
+    });
+  }
+
+  /* ==============================================================================
+     QUẢN LÝ ĐỀ THI & TẠO ĐỀ BẰNG AI (AI EXAM GENERATOR)
+     ============================================================================== */
+  renderExamsManagement() {
+    const exams = examService.getExams('ALL');
+
+    this.container.innerHTML = `
+      <div class="admin-topbar">
+        <div>
+          <h2 class="fw-bold mb-1">Quản Lý Đề Thi Thử & AI Generator</h2>
+          <p class="text-secondary mb-0">Quản lý kho đề thi CEFR (A1–B1) và sinh đề thi trắc nghiệm tự động bằng AI.</p>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="btn btn-3d btn-3d-outline btn-3d-sm" id="btn-open-manual-exam">
+            <i class="bi bi-pencil-square"></i> Thêm đề thủ công
+          </button>
+          <button class="btn btn-3d btn-3d-primary btn-3d-sm" id="btn-open-ai-exam">
+            <i class="bi bi-robot"></i> Tạo đề bằng AI
+          </button>
+        </div>
+      </div>
+
+      <div class="gamify-card p-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="fw-bold mb-0">Danh sách đề thi hiện có (${exams.length} đề)</h5>
+          <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Hệ thống LingoLearning Exam Engine</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+              <tr>
+                <th>Tiêu đề đề thi</th>
+                <th>Cấp độ</th>
+                <th>Số câu</th>
+                <th>Thời lượng</th>
+                <th>Nguồn gốc</th>
+                <th>Ngày tạo</th>
+                <th class="text-end">Hành động</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${exams.length === 0 ? `
+                <tr>
+                  <td colspan="7" class="text-center py-4 text-muted">Chưa có đề thi nào trong hệ thống.</td>
+                </tr>
+              ` : exams.map(ex => `
+                <tr>
+                  <td>
+                    <div class="fw-bold text-dark">${ex.title}</div>
+                    <div class="small text-muted">${ex.description || ''}</div>
+                  </td>
+                  <td><span class="badge badge-level badge-level-${ex.level}">${ex.level}</span></td>
+                  <td class="fw-bold">${ex.questions.length} câu</td>
+                  <td>${ex.durationMinutes} phút</td>
+                  <td>
+                    ${ex.isAiGenerated ? 
+                      '<span class="badge bg-primary-subtle text-primary"><i class="bi bi-magic me-1"></i>AI Generated</span>' : 
+                      '<span class="badge bg-secondary-subtle text-secondary">Chuẩn CEFR</span>'}
+                  </td>
+                  <td class="small text-muted">${ex.createdAt || 'Hôm nay'}</td>
+                  <td class="text-end">
+                    <button class="btn btn-sm btn-outline-danger btn-delete-exam" data-id="${ex.id}" title="Xóa đề thi">
+                      <i class="bi bi-trash"></i>
+                    </button>
+                  </td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+
+    // 1. Open AI Exam Modal
+    this.container.querySelector('#btn-open-ai-exam')?.addEventListener('click', () => {
+      const modalEl = document.getElementById('aiExamModal');
+      if (modalEl && window.bootstrap) {
+        bootstrap.Modal.getOrCreateInstance(modalEl).show();
+      }
+    });
+
+    // 2. Open Manual Exam Modal
+    this.container.querySelector('#btn-open-manual-exam')?.addEventListener('click', () => {
+      const modalEl = document.getElementById('manualExamModal');
+      if (modalEl && window.bootstrap) {
+        bootstrap.Modal.getOrCreateInstance(modalEl).show();
+      }
+    });
+
+    // 3. Trigger AI Exam Generation
+    document.getElementById('btn-trigger-ai-generate')?.addEventListener('click', async (e) => {
+      const btn = e.currentTarget;
+      const level = document.getElementById('ai-exam-level').value;
+      const count = parseInt(document.getElementById('ai-exam-count').value, 10);
+      const focus = document.getElementById('ai-exam-focus').value;
+      const customTopic = document.getElementById('ai-exam-topic').value.trim();
+
+      btn.disabled = true;
+      btn.innerHTML = `<span class="spinner-border spinner-border-sm me-2"></span>AI đang sinh câu hỏi...`;
+
+      try {
+        await examService.generateExamWithAI({ level, questionCount: count, focus, customTopic });
+        sound.playSuccess();
+        const modalEl = document.getElementById('aiExamModal');
+        if (modalEl && window.bootstrap) {
+          bootstrap.Modal.getInstance(modalEl)?.hide();
+        }
+        alert(`🎉 Đã tạo thành công đề thi ${level} (${count} câu) bằng AI!`);
+        this.renderExamsManagement();
+      } catch (err) {
+        alert('Lỗi khi sinh đề bằng AI: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `<i class="bi bi-magic me-1"></i> Sinh Đề Thi Bằng AI Ngay`;
+      }
+    });
+
+    // 4. Save Manual Exam
+    document.getElementById('form-manual-exam')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const title = document.getElementById('manual-exam-title').value.trim();
+      const level = document.getElementById('manual-exam-level').value;
+      const duration = parseInt(document.getElementById('manual-exam-duration').value, 10);
+      const desc = document.getElementById('manual-exam-desc').value.trim();
+
+      const qText = document.getElementById('manual-q-text').value.trim();
+      const optA = document.getElementById('manual-opt-a').value.trim();
+      const optB = document.getElementById('manual-opt-b').value.trim();
+      const optC = document.getElementById('manual-opt-c').value.trim();
+      const optD = document.getElementById('manual-opt-d').value.trim();
+      const correctAns = document.getElementById('manual-correct-ans').value.trim();
+      const explanation = document.getElementById('manual-q-explanation').value.trim();
+
+      const newExam = {
+        title,
+        level,
+        durationMinutes: duration,
+        description: desc || `Đề thi trắc nghiệm ${level}`,
+        questions: [
+          {
+            id: 'q1',
+            type: 'manual',
+            question: qText,
+            options: [optA, optB, optC, optD],
+            correctAnswer: correctAns,
+            explanation
+          }
+        ]
+      };
+
+      examService.saveExam(newExam);
+      sound.playSuccess();
+      const modalEl = document.getElementById('manualExamModal');
+      if (modalEl && window.bootstrap) {
+        bootstrap.Modal.getInstance(modalEl)?.hide();
+      }
+      alert('Đã thêm đề thi mới!');
+      this.renderExamsManagement();
+    });
+
+    // 5. Delete Exam
+    this.container.querySelectorAll('.btn-delete-exam').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-id');
+        if (confirm('Bạn có chắc chắn muốn xóa đề thi này?')) {
+          examService.deleteExam(id);
+          this.renderExamsManagement();
+        }
       });
     });
   }

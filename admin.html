@@ -60,6 +60,11 @@
           <span>Kho Câu Mẫu</span>
         </div>
 
+        <div class="admin-nav-item" data-tab="exams">
+          <i class="bi bi-patch-question-fill text-warning"></i>
+          <span>Quản lý Đề Thi & AI</span>
+        </div>
+
         <div class="text-muted small fw-bold text-uppercase px-2 mt-4 mb-2" style="font-size: 0.72rem;">Hệ thống & Cấu hình</div>
 
         <div class="admin-nav-item" data-tab="supabase">
@@ -176,6 +181,148 @@
         <div class="modal-footer border-top">
           <button type="button" class="btn btn-3d btn-3d-outline btn-3d-sm" data-bs-dismiss="modal">Hủy</button>
           <button type="button" class="btn btn-3d btn-3d-primary btn-3d-sm" id="btn-save-vocab">Lưu Từ Vựng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Tạo Đề Thi Bằng AI (AI Exam Generator) -->
+  <div class="modal fade" id="aiExamModal" tabindex="-1" aria-labelledby="aiExamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="aiExamModalLabel">
+            <i class="bi bi-robot text-primary me-2"></i>Tạo Đề Thi Bằng AI (AI Exam Generator)
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-secondary small mb-3">
+            Hệ thống AI sẽ tự động phân tích và trích xuất câu hỏi trắc nghiệm chuẩn CEFR từ ngân hàng 3.315 từ vựng DWDS/Kaikki và 7.934 câu ví dụ ngữ cảnh Tatoeba.
+          </p>
+          <form id="form-ai-exam">
+            <div class="row g-2 mb-3">
+              <div class="col-6">
+                <label class="form-label small fw-bold">Cấp độ CEFR *</label>
+                <select class="form-select form-select-gamify" id="ai-exam-level">
+                  <option value="A1" selected>A1 - Khởi đầu</option>
+                  <option value="A2">A2 - Sơ trung cấp</option>
+                  <option value="B1">B1 - Trung cấp</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label class="form-label small fw-bold">Số lượng câu hỏi *</label>
+                <select class="form-select form-select-gamify" id="ai-exam-count">
+                  <option value="5">5 câu (Khảo sát nhanh)</option>
+                  <option value="10" selected>10 câu (Tiêu chuẩn)</option>
+                  <option value="15">15 câu (Đầy đủ)</option>
+                  <option value="20">20 câu (Chuyên sâu)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Trọng tâm kiến thức</label>
+              <select class="form-select form-select-gamify" id="ai-exam-focus">
+                <option value="mixed" selected>Tổng hợp (Mạo từ + Nghĩa + Điền câu + Số nhiều)</option>
+                <option value="article">Chuyên sâu: Phản xạ mạo từ (der/die/das)</option>
+                <option value="vocab">Chuyên sâu: Nghĩa từ vựng & Từ loại</option>
+                <option value="cloze">Chuyên sâu: Điền khuyết câu ngữ cảnh Tatoeba</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Chủ đề đề thi (Tùy chọn)</label>
+              <input type="text" class="form-control form-control-gamify" id="ai-exam-topic" placeholder="ví dụ: Đời sống hàng ngày, Mua sắm...">
+            </div>
+
+            <div class="p-2 rounded bg-body-tertiary border text-muted small mb-3">
+              <i class="bi bi-info-circle text-primary me-1"></i> Đề thi sau khi sinh sẽ lập tức xuất hiện trong mục <strong>"Thi thử"</strong> trên trang học viên.
+            </div>
+
+            <button type="button" class="btn btn-3d btn-3d-primary w-100" id="btn-trigger-ai-generate">
+              <i class="bi bi-magic me-1"></i> Sinh Đề Thi Bằng AI Ngay
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Thêm Đề Thi Thủ Công -->
+  <div class="modal fade" id="manualExamModal" tabindex="-1" aria-labelledby="manualExamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="manualExamModalLabel">
+            <i class="bi bi-pencil-square text-primary me-2"></i>Thêm Đề Thi Thủ Công
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="form-manual-exam">
+            <div class="row g-2 mb-3">
+              <div class="col-8">
+                <label class="form-label small fw-bold">Tiêu đề đề thi *</label>
+                <input type="text" class="form-control form-control-gamify" id="manual-exam-title" placeholder="ví dụ: Đề kiểm tra từ vựng A1 Đề số 2" required>
+              </div>
+              <div class="col-4">
+                <label class="form-label small fw-bold">Cấp độ *</label>
+                <select class="form-select form-select-gamify" id="manual-exam-level">
+                  <option value="A1">A1</option>
+                  <option value="A2">A2</option>
+                  <option value="B1">B1</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row g-2 mb-3">
+              <div class="col-6">
+                <label class="form-label small fw-bold">Thời gian làm bài (Phút) *</label>
+                <input type="number" class="form-control form-control-gamify" id="manual-exam-duration" value="10" min="5" max="60" required>
+              </div>
+              <div class="col-6">
+                <label class="form-label small fw-bold">Mô tả ngắn</label>
+                <input type="text" class="form-control form-control-gamify" id="manual-exam-desc" placeholder="Mô tả đề thi...">
+              </div>
+            </div>
+
+            <h6 class="fw-bold mt-4 mb-2">Thêm câu hỏi mẫu (1 câu cơ bản):</h6>
+            <div class="p-3 bg-body-tertiary rounded border mb-3">
+              <div class="mb-2">
+                <label class="form-label small fw-bold">Nội dung câu hỏi *</label>
+                <input type="text" class="form-control form-control-gamify" id="manual-q-text" placeholder="ví dụ: Mạo từ của từ 'Auto' là gì?" required>
+              </div>
+              <div class="row g-2 mb-2">
+                <div class="col-3">
+                  <input type="text" class="form-control form-control-gamify" id="manual-opt-a" placeholder="Đáp án A (das)" required>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="form-control form-control-gamify" id="manual-opt-b" placeholder="Đáp án B (der)" required>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="form-control form-control-gamify" id="manual-opt-c" placeholder="Đáp án C (die)" required>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="form-control form-control-gamify" id="manual-opt-d" placeholder="Đáp án D (den)" required>
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Đáp án chính xác *</label>
+                  <input type="text" class="form-control form-control-gamify" id="manual-correct-ans" placeholder="ví dụ: das" required>
+                </div>
+                <div class="col-6">
+                  <label class="form-label small fw-bold">Giải thích đáp án</label>
+                  <input type="text" class="form-control form-control-gamify" id="manual-q-explanation" placeholder="ví dụ: das Auto là danh từ giống trung.">
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-3d btn-3d-primary w-100">
+              <i class="bi bi-plus-circle me-1"></i> Lưu Đề Thi Vào Hệ Thống
+            </button>
+          </form>
         </div>
       </div>
     </div>

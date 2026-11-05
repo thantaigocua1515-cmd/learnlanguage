@@ -386,3 +386,195 @@ a:hover {
   outline: none;
 }
 
+
+/* ==============================================================================
+   DESKTOP MENU TABS & MODERN APP NAVIGATION
+   ============================================================================== */
+.app-nav-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--bg-surface-elevated);
+  padding: 0.3rem 0.4rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-subtle);
+}
+
+.app-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border-radius: var(--radius-pill);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.app-nav-btn:hover {
+  color: var(--brand-primary);
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.app-nav-btn.active {
+  color: #ffffff;
+  background: var(--brand-primary);
+  box-shadow: 0 3px 0 var(--brand-primary-shadow);
+}
+
+/* ==============================================================================
+   ALPHABET FILTER BAR (A - Z)
+   ============================================================================== */
+.alphabet-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  overflow-x: auto;
+  padding: 0.4rem 0.2rem;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.alphabet-bar-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.alphabet-bar-container::-webkit-scrollbar-thumb {
+  background-color: var(--border-strong);
+  border-radius: 4px;
+}
+
+.btn-alpha {
+  min-width: 34px;
+  height: 34px;
+  padding: 0 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.12s ease;
+  user-select: none;
+}
+
+.btn-alpha:hover {
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
+  transform: translateY(-1px);
+}
+
+.btn-alpha.active {
+  background: var(--brand-primary);
+  color: #ffffff;
+  border-color: var(--brand-primary);
+  box-shadow: 0 2px 0 var(--brand-primary-shadow);
+}
+
+/* ==============================================================================
+   WORD DETAIL MODAL & GUEST LOCK OVERLAY
+   ============================================================================== */
+.word-detail-header {
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+}
+
+.guest-lock-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--border-strong);
+  padding: 1.5rem;
+  background: var(--bg-surface-elevated);
+}
+
+.guest-lock-blur {
+  filter: blur(4px);
+  user-select: none;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.guest-lock-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+  z-index: 5;
+  text-align: center;
+  padding: 1rem;
+}
+
+[data-theme="dark"] .guest-lock-overlay {
+  background: rgba(15, 23, 42, 0.85);
+}
+
+/* ==============================================================================
+   EXAM ROOM & QUESTIONS STYLING
+   ============================================================================== */
+.exam-option-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-align: left;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-subtle);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-bottom: 0.75rem;
+}
+
+.exam-option-btn:hover {
+  border-color: var(--brand-primary);
+  background: rgba(37, 99, 235, 0.05);
+}
+
+.exam-option-btn.selected {
+  border-color: var(--brand-primary);
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--brand-primary);
+  box-shadow: 0 0 0 1px var(--brand-primary);
+}
+
+.exam-option-key {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.exam-option-btn.selected .exam-option-key {
+  background: var(--brand-primary);
+  color: white;
+  border-color: var(--brand-primary);
+}

@@ -1,13 +1,14 @@
 /**
  * LingoLearning - Authentication & Profile Service
- * Integrates with Supabase Auth or manages local guest/admin session
+ * Integrates with Supabase Auth or manages local guest/student/admin session
  */
 
 import { supabaseManager } from '../supabaseClient.js';
 
 class AuthService {
   constructor() {
-    this.sessionKey = 'lingo_user_session_v1';
+    this.sessionKey = 'lingo_user_session_v2';
+    this.listeners = [];
     this.currentUser = this.loadSession();
   }
 
@@ -15,53 +16,198 @@ class AuthService {
     const raw = localStorage.getItem(this.sessionKey);
     if (raw) {
       try {
-        return JSON.parse(raw);
+        const u = JSON.parse(raw);
+        if (u && u.role) return u;
       } catch (e) {
         // invalid JSON
       }
     }
 
-    // Default guest profile
-    const defaultUser = {
-      id: 'usr-guest-01',
-      email: 'huan.nguyen@lingolearning.de',
-      fullName: 'Học viên Tiếng Đức',
-      role: 'student', // 'student' | 'admin'
-      xp: 240,
-      streak: 5,
+    // Default: Guest mode (unauthenticated visitor)
+    return {
+      id: 'guest',
+      fullName: 'Khách (Guest)',
+      email: '',
+      role: 'guest',
+      xp: 0,
+      streak: 0,
       hearts: 5,
+      isGuest: true,
       targetLevel: 'A1',
       currentLang: 'de'
     };
-    this.saveSession(defaultUser);
-    return defaultUser;
   }
 
   saveSession(user) {
     this.currentUser = user;
     localStorage.setItem(this.sessionKey, JSON.stringify(user));
+    this.notifyListeners();
+  }
+
+  onAuthChange(callback) {
+    if (typeof callback === 'function') {
+      this.listeners.push(callback);
+    }
+  }
+
+  notifyListeners() {
+    this.listeners.forEach(cb => {
+      try {
+        cb(this.currentUser);
+      } catch (e) {
+        console.error('Error in auth listener:', e);
+      }
+    });
   }
 
   getUser() {
     return this.currentUser;
   }
 
+  isLoggedIn() {
+    return !!(this.currentUser && !this.currentUser.isGuest && this.currentUser.role !== 'guest');
+  }
+
+  isGuest() {
+    return !this.isLoggedIn();
+  }
+
   isAdmin() {
-    return this.currentUser && this.currentUser.role === 'admin';
+    return this.isLoggedIn() && this.currentUser.role === 'admin';
   }
 
   /**
-   * Switch roles dynamically for rapid previewing (Student <-> Admin)
+   * Quick Login for testing & fast onboarding
    */
-  toggleRole() {
-    const newRole = this.currentUser.role === 'admin' ? 'student' : 'admin';
-    this.currentUser.role = newRole;
-    this.saveSession(this.currentUser);
-    return newRole;
+  quickLogin(role = 'student') {
+    const user = {
+      id: role === 'admin' ? 'usr-admin-01' : 'usr-student-01',
+      email: role === 'admin' ? 'admin@lingolearning.de' : 'hocvien@lingolearning.de',
+      fullName: role === 'admin' ? 'Quản Trị Viên (Admin)' : 'Học Viên Tiếng Đức',
+      role: role === 'admin' ? 'admin' : 'student',
+      xp: role === 'admin' ? 850 : 250,
+      streak: 5,
+      hearts: 5,
+      isGuest: false,
+      targetLevel: 'A1',
+      currentLang: 'de'
+    };
+    this.saveSession(user);
+    return user;
   }
 
   /**
-   * Add XP Points & update streaks
+   * Sign In (Supabase Auth or Local Mock)
+   */
+  async signIn(email, password) {
+    if (supabaseManager.isConnected && supabaseManager.client) {
+      try {
+        const { data, error } = await supabaseManager.client.auth.signInWithPassword({ email, password });
+        if (error) throw error;
+        const isAdminRole = email.toLowerCase().includes('admin');
+        const user = {
+          id: data.user.id,
+          email: data.user.email,
+          fullName: data.user.user_metadata?.full_name || email.split('@')[0],
+          role: isAdminRole ? 'admin' : 'student',
+          xp: 150,
+          streak: 2,
+          hearts: 5,
+          isGuest: false,
+          targetLevel: 'A1',
+          currentLang: 'de'
+        };
+        this.saveSession(user);
+        return user;
+      } catch (err) {
+        console.warn('Supabase auth sign in error, fallback to local:', err);
+      }
+    }
+
+    // Local authentication fallback
+    const isAdminRole = email.toLowerCase().includes('admin');
+    const user = {
+      id: 'usr-' + Date.now(),
+      email,
+      fullName: email.split('@')[0],
+      role: isAdminRole ? 'admin' : 'student',
+      xp: 150,
+      streak: 2,
+      hearts: 5,
+      isGuest: false,
+      targetLevel: 'A1',
+      currentLang: 'de'
+    };
+    this.saveSession(user);
+    return user;
+  }
+
+  /**
+   * Sign Up (Register new account)
+   */
+  async signUp(email, password, fullName = '') {
+    if (supabaseManager.isConnected && supabaseManager.client) {
+      try {
+        const { data, error } = await supabaseManager.client.auth.signUp({
+          email,
+          password,
+          options: { data: { full_name: fullName } }
+        });
+        if (error) throw error;
+        const user = {
+          id: data.user?.id || 'usr-' + Date.now(),
+          email,
+          fullName: fullName || email.split('@')[0],
+          role: 'student',
+          xp: 50,
+          streak: 1,
+          hearts: 5,
+          isGuest: false,
+          targetLevel: 'A1',
+          currentLang: 'de'
+        };
+        this.saveSession(user);
+        return user;
+      } catch (err) {
+        console.warn('Supabase sign up error, fallback to local:', err);
+      }
+    }
+
+    // Local registration fallback
+    const user = {
+      id: 'usr-' + Date.now(),
+      email,
+      fullName: fullName || email.split('@')[0],
+      role: 'student',
+      xp: 50,
+      streak: 1,
+      hearts: 5,
+      isGuest: false,
+      targetLevel: 'A1',
+      currentLang: 'de'
+    };
+    this.saveSession(user);
+    return user;
+  }
+
+  /**
+   * Sign Out
+   */
+  async signOut() {
+    if (supabaseManager.isConnected && supabaseManager.client) {
+      try {
+        await supabaseManager.client.auth.signOut();
+      } catch {
+        // ignore
+      }
+    }
+    localStorage.removeItem(this.sessionKey);
+    this.currentUser = this.loadSession();
+    this.notifyListeners();
+  }
+
+  /**
+   * Add XP Points
    */
   addXp(points = 10) {
     if (!this.currentUser) return;
@@ -70,9 +216,6 @@ class AuthService {
     return this.currentUser.xp;
   }
 
-  /**
-   * Decrement heart on wrong answer
-   */
   loseHeart() {
     if (!this.currentUser) return;
     if (this.currentUser.hearts > 0) {
@@ -82,62 +225,12 @@ class AuthService {
     return this.currentUser.hearts;
   }
 
-  /**
-   * Refill hearts
-   */
   refillHearts() {
     if (!this.currentUser) return;
     this.currentUser.hearts = 5;
     this.saveSession(this.currentUser);
     return 5;
   }
-
-  /**
-   * Sign in with Supabase or Local
-   */
-  async signIn(email, password) {
-    if (supabaseManager.isConnected && supabaseManager.client) {
-      const { data, error } = await supabaseManager.client.auth.signInWithPassword({ email, password });
-      if (error) throw error;
-      const user = {
-        id: data.user.id,
-        email: data.user.email,
-        fullName: data.user.user_metadata?.full_name || email.split('@')[0],
-        role: email.includes('admin') ? 'admin' : 'student',
-        xp: 100,
-        streak: 1,
-        hearts: 5,
-        targetLevel: 'A1',
-        currentLang: 'de'
-      };
-      this.saveSession(user);
-      return user;
-    }
-
-    // Local authentication fallback
-    const user = {
-      id: 'usr-' + Date.now(),
-      email,
-      fullName: email.split('@')[0],
-      role: email.toLowerCase().includes('admin') ? 'admin' : 'student',
-      xp: 150,
-      streak: 3,
-      hearts: 5,
-      targetLevel: 'A1',
-      currentLang: 'de'
-    };
-    this.saveSession(user);
-    return user;
-  }
-
-  async signOut() {
-    if (supabaseManager.isConnected && supabaseManager.client) {
-      await supabaseManager.client.auth.signOut();
-    }
-    localStorage.removeItem(this.sessionKey);
-    this.currentUser = this.loadSession();
-  }
 }
 
 export const authService = new AuthService();
-
