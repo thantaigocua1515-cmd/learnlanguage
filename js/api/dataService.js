@@ -368,9 +368,9 @@ class DataService {
   }
 
   /**
-   * Dedicated Query: GET words by level, search, limit, offset
+   * Dedicated Query: GET words by level, letter, gender, search, limit, offset
    */
-  async getWords({ level = 'A1', limit = 50, offset = 0, search = '' } = {}) {
+  async getWords({ level = 'A1', letter = 'ALL', gender = 'ALL', limit = 150, offset = 0, search = '' } = {}) {
     // 1. Try Supabase Client
     if (supabaseManager.isConnected && supabaseManager.client) {
       try {
@@ -382,8 +382,10 @@ class DataService {
             word_examples (id, sentence_de, translation_vi, source, tatoeba_id)
           `);
         if (level && level !== 'ALL') query = query.eq('level', level.toUpperCase());
-        if (search) query = query.ilike('lemma', `%${search}%`);
-        query = query.range(offset, offset + limit - 1);
+        if (letter && letter !== 'ALL') query = query.ilike('lemma', `${letter}%`);
+        if (gender && gender !== 'ALL') query = query.eq('article', gender);
+        if (search) query = query.or(`lemma.ilike.%${search}%,meaning_vi.ilike.%${search}%,meaning_en.ilike.%${search}%`);
+        query = query.order('lemma', { ascending: true }).range(offset, offset + limit - 1);
         const { data, error } = await query;
         if (!error && data && data.length > 0) {
           return data.map(w => this._normalizeWordItem(w));
@@ -397,6 +399,9 @@ class DataService {
     try {
       const url = new URL('/api/vocab', window.location.origin);
       if (level && level !== 'ALL') url.searchParams.set('level', level);
+      if (letter && letter !== 'ALL') url.searchParams.set('letter', letter);
+      if (gender && gender !== 'ALL') url.searchParams.set('gender', gender);
+      if (search) url.searchParams.set('search', search);
       url.searchParams.set('limit', limit);
       url.searchParams.set('offset', offset);
       const res = await fetch(url.toString());
@@ -410,8 +415,52 @@ class DataService {
       // ignore
     }
 
-    // 3. Fallback to getVocabulary
-    return this.getVocabulary({ level, search });
+    // 3. Fallback to Full JSON Cache or local storage
+    return this.getFallbackWords({ level, letter, gender, search, limit, offset });
+  }
+
+  /**
+   * Fallback to static JSON cache (works offline or when backend DB is unreachable)
+   */
+  async getFallbackWords({ level = 'ALL', letter = 'ALL', gender = 'ALL', search = '', limit = 150, offset = 0 } = {}) {
+    if (!this._fullVocabCache) {
+      try {
+        const res = await fetch('/data/output/vocab_A1_A2_B1_full.json');
+        if (res.ok) {
+          const list = await res.json();
+          if (Array.isArray(list) && list.length > 0) {
+            this._fullVocabCache = list.map(w => this._normalizeWordItem(w));
+          }
+        }
+      } catch {
+        // ignore
+      }
+    }
+
+    let list = this._fullVocabCache;
+    if (!list || list.length === 0) {
+      list = (JSON.parse(localStorage.getItem(this.storageKey) || '[]')).map(w => this._normalizeWordItem(w));
+    }
+
+    if (level && level !== 'ALL') {
+      list = list.filter(v => (v.cefr_level || v.level) === level);
+    }
+    if (letter && letter !== 'ALL') {
+      const char = letter.toUpperCase();
+      list = list.filter(v => (v.word || v.lemma || '').toUpperCase().startsWith(char));
+    }
+    if (gender && gender !== 'ALL') {
+      list = list.filter(v => v.gender === gender || v.article === gender);
+    }
+    if (search && search.trim()) {
+      const q = search.trim().toLowerCase();
+      list = list.filter(v => 
+        (v.word || '').toLowerCase().includes(q) || 
+        (v.meaning_vi && v.meaning_vi.toLowerCase().includes(q)) ||
+        (v.meaning_en && v.meaning_en.toLowerCase().includes(q))
+      );
+    }
+    return list.slice(offset, offset + limit);
   }
 
   /**
@@ -445,6 +494,16 @@ class DataService {
     } catch {
       // ignore
     }
+
+    // Fallback to cached list
+    if (!this._fullVocabCache) {
+      await this.getFallbackWords();
+    }
+    if (this._fullVocabCache) {
+      const found = this._fullVocabCache.find(w => (w.lemma || w.word || '').toLowerCase() === lemma.trim().toLowerCase());
+      if (found) return found;
+    }
+
     return null;
   }
 
@@ -477,11 +536,23 @@ class DataService {
       const res = await fetch(`/api/vocab?lemma=${encodeURIComponent(lemma)}&type=examples`);
       if (res.ok) {
         const data = await res.json();
-        return data.examples || [];
+        if (data.examples && data.examples.length > 0) {
+          return data.examples;
+        }
       }
     } catch {
       // ignore
     }
+
+    // Fallback to cached list examples
+    if (!this._fullVocabCache) {
+      await this.getFallbackWords();
+    }
+    if (this._fullVocabCache) {
+      const found = this._fullVocabCache.find(w => (w.lemma || w.word || '').toLowerCase() === lemma.trim().toLowerCase());
+      if (found && found.examples) return found.examples;
+    }
+
     return [];
   }
 

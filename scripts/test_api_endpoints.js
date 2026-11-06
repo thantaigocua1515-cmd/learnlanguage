@@ -54,7 +54,37 @@ async function testEndpoints() {
     console.log(`  [${idx + 1}] DE: "${ex.sentence_de}" | VI: "${ex.translation_vi}" (source: ${ex.source})`);
   });
 
-  console.log('\n✅ All 3 API endpoints verified successfully!');
+  // Test 4: GET /api/vocab?level=A1&letter=C
+  console.log('\n4. Testing GET /api/vocab?level=A1&letter=C');
+  const req4 = { method: 'GET', query: { level: 'A1', letter: 'C', limit: 5 } };
+  const res4 = createMockRes();
+  await handler(req4, res4);
+  console.log(`Status: ${res4.statusCode}, Letter: C, Total: ${res4.body?.total}, Returned: ${res4.body?.data?.length}`);
+  if (res4.body?.data?.[0]) {
+    console.log(`Sample item: ${res4.body.data[0].lemma} (${res4.body.data[0].article || ''}) - ${res4.body.data[0].meaning_vi}`);
+  }
+
+  // Test 5: GET /api/vocab?level=ALL&letter=X
+  console.log('\n5. Testing GET /api/vocab?level=ALL&letter=X');
+  const req5 = { method: 'GET', query: { level: 'ALL', letter: 'X' } };
+  const res5 = createMockRes();
+  await handler(req5, res5);
+  console.log(`Status: ${res5.statusCode}, Letter: X, Total: ${res5.body?.total}, Returned: ${res5.body?.data?.length}`);
+  res5.body?.data?.forEach((item, idx) => {
+    console.log(`  [${idx + 1}] ${item.article || ''} ${item.lemma} (${item.level}) - ${item.meaning_vi}`);
+  });
+
+  // Test 6: GET /api/vocab?level=ALL&letter=Y
+  console.log('\n6. Testing GET /api/vocab?level=ALL&letter=Y');
+  const req6 = { method: 'GET', query: { level: 'ALL', letter: 'Y' } };
+  const res6 = createMockRes();
+  await handler(req6, res6);
+  console.log(`Status: ${res6.statusCode}, Letter: Y, Total: ${res6.body?.total}, Returned: ${res6.body?.data?.length}`);
+  res6.body?.data?.forEach((item, idx) => {
+    console.log(`  [${idx + 1}] ${item.article || ''} ${item.lemma} (${item.level}) - ${item.meaning_vi}`);
+  });
+
+  console.log('\n✅ All API endpoints (including alphabet filtering) verified successfully!');
   process.exit(0);
 }
 

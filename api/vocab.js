@@ -60,7 +60,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { level, lemma, type, limit = 50, offset = 0 } = req.query;
+  const { level, letter, gender, search, lemma, type, limit = 60, offset = 0 } = req.query;
 
   try {
     const db = getPool();
@@ -143,28 +143,58 @@ export default async function handler(req, res) {
       }
     }
 
-    // 3. GET /api/vocab?level=A1
-    if (level) {
-      const lvl = level.toUpperCase();
-      const lim = Math.min(Math.max(parseInt(limit, 10) || 50, 1), 200);
+    // 3. GET /api/vocab with filters (level, letter, gender, search)
+    if (level || letter || gender || search || req.query.all !== undefined || req.query.list !== undefined) {
+      const lim = Math.min(Math.max(parseInt(limit, 10) || 60, 1), 500);
       const off = Math.max(parseInt(offset, 10) || 0, 0);
 
       try {
-        const countRes = await db.query('SELECT COUNT(*) FROM public.words WHERE level = $1', [lvl]);
+        const conditions = [];
+        const params = [];
+        let pIdx = 1;
+
+        if (level && level.toUpperCase() !== 'ALL') {
+          conditions.push(`w.level = $${pIdx++}`);
+          params.push(level.toUpperCase());
+        }
+
+        if (letter && letter.toUpperCase() !== 'ALL') {
+          const char = letter.trim().toUpperCase();
+          conditions.push(`(UPPER(LEFT(w.lemma, 1)) = $${pIdx++} OR LEFT(w.lemma, 1) ILIKE $${pIdx - 1})`);
+          params.push(char);
+        }
+
+        if (gender && gender.toUpperCase() !== 'ALL') {
+          conditions.push(`(w.article = $${pIdx} OR w.gender = $${pIdx})`);
+          pIdx++;
+          params.push(gender.toLowerCase());
+        }
+
+        if (search && search.trim()) {
+          conditions.push(`(w.lemma ILIKE $${pIdx} OR w.meaning_vi ILIKE $${pIdx} OR w.meaning_en ILIKE $${pIdx})`);
+          pIdx++;
+          params.push(`%${search.trim()}%`);
+        }
+
+        const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+
+        const countRes = await db.query(`SELECT COUNT(*) FROM public.words w ${whereClause}`, params);
         const total = parseInt(countRes.rows[0].count, 10);
 
         const query = `
           SELECT id, lemma, level, pos, article, gender, plural, ipa,
                  meaning_en, meaning_vi, forms, synonyms, missing, sources
-          FROM public.words
-          WHERE level = $1
-          ORDER BY lemma ASC
-          LIMIT $2 OFFSET $3;
+          FROM public.words w
+          ${whereClause}
+          ORDER BY w.lemma ASC
+          LIMIT $${pIdx++} OFFSET $${pIdx++};
         `;
-        const result = await db.query(query, [lvl, lim, off]);
+        const result = await db.query(query, [...params, lim, off]);
 
         return res.status(200).json({
-          level: lvl,
+          level: level || 'ALL',
+          letter: letter || 'ALL',
+          gender: gender || 'ALL',
           total,
           limit: lim,
           offset: off,
@@ -172,9 +202,34 @@ export default async function handler(req, res) {
         });
       } catch (dbErr) {
         console.warn('DB query failed, fallback to local cache:', dbErr.message);
-        const allWords = getLocalCache().filter(w => w.level === lvl);
+        let allWords = getLocalCache();
+
+        if (level && level.toUpperCase() !== 'ALL') {
+          allWords = allWords.filter(w => (w.level || '').toUpperCase() === level.toUpperCase());
+        }
+
+        if (letter && letter.toUpperCase() !== 'ALL') {
+          const char = letter.trim().toUpperCase();
+          allWords = allWords.filter(w => (w.lemma || w.word || '').toUpperCase().startsWith(char));
+        }
+
+        if (gender && gender.toUpperCase() !== 'ALL') {
+          allWords = allWords.filter(w => w.article === gender.toLowerCase() || w.gender === gender.toLowerCase());
+        }
+
+        if (search && search.trim()) {
+          const q = search.trim().toLowerCase();
+          allWords = allWords.filter(w =>
+            (w.lemma || '').toLowerCase().includes(q) ||
+            (w.meaning_vi || '').toLowerCase().includes(q) ||
+            (w.meaning_en || '').toLowerCase().includes(q)
+          );
+        }
+
         return res.status(200).json({
-          level: lvl,
+          level: level || 'ALL',
+          letter: letter || 'ALL',
+          gender: gender || 'ALL',
           total: allWords.length,
           limit: lim,
           offset: off,

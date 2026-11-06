@@ -529,36 +529,36 @@ class App {
       </div>
     `;
 
-    // Fetch words based on level
-    let words = await dataService.getWords({ level: this.currentLevel, limit: 120 });
+    // Fetch words based on current filters (level, letter, gender, search)
+    let words = await dataService.getWords({
+      level: this.currentLevel,
+      letter: this.currentLetter,
+      gender: this.currentGender,
+      search: this.searchQuery,
+      limit: 300
+    });
+
     if (!words || words.length === 0) {
-      words = await dataService.getVocabulary({ level: this.currentLevel });
-    }
-
-    // Apply Letter Filter if selected
-    if (this.currentLetter && this.currentLetter !== 'ALL') {
-      words = words.filter(w => {
-        const firstChar = (w.word || w.lemma || '').charAt(0).toUpperCase();
-        return firstChar === this.currentLetter;
+      words = await dataService.getVocabulary({
+        level: this.currentLevel,
+        gender: this.currentGender,
+        search: this.searchQuery
       });
-    }
-
-    // Apply Gender Filter
-    if (this.currentGender && this.currentGender !== 'ALL') {
-      words = words.filter(w => w.gender === this.currentGender);
-    }
-
-    // Apply Search Filter
-    if (this.searchQuery) {
-      const q = this.searchQuery.toLowerCase();
-      words = words.filter(w => 
-        w.word.toLowerCase().includes(q) || 
-        (w.meaning_vi && w.meaning_vi.toLowerCase().includes(q)) ||
-        (w.meaning_en && w.meaning_en.toLowerCase().includes(q))
-      );
+      if (this.currentLetter && this.currentLetter !== 'ALL') {
+        words = words.filter(w => {
+          const firstChar = (w.word || w.lemma || '').charAt(0).toUpperCase();
+          return firstChar === this.currentLetter;
+        });
+      }
     }
 
     const alphabetList = ['ALL', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ä', 'Ö', 'Ü'];
+    const levelTabs = [
+      { code: 'ALL', label: 'Tất cả' },
+      { code: 'A1', label: 'A1' },
+      { code: 'A2', label: 'A2' },
+      { code: 'B1', label: 'B1' }
+    ];
 
     this.container.innerHTML = `
       <!-- Header Toolbar: Levels & Search -->
@@ -570,9 +570,9 @@ class App {
 
         <!-- CEFR Level Switcher Pills -->
         <div class="d-inline-flex align-items-center gap-1 p-1 bg-body-tertiary rounded-pill border">
-          ${CONFIG.CEFR_LEVELS.slice(0, 3).map(lvl => `
-            <button class="btn btn-sm rounded-pill px-3 fw-bold vocab-level-btn ${this.currentLevel === lvl.code ? 'btn-primary' : 'btn-light'}" data-level="${lvl.code}">
-              ${lvl.code}
+          ${levelTabs.map(lvl => `
+            <button class="btn btn-sm rounded-pill px-3 fw-bold vocab-level-btn ${this.currentLevel === lvl.code ? 'btn-primary shadow-sm' : 'btn-light'}" data-level="${lvl.code}">
+              ${lvl.label}
             </button>
           `).join('')}
         </div>
@@ -580,13 +580,20 @@ class App {
 
       <!-- Alphabet Filter Bar (A-Z) -->
       <div class="gamify-card p-2 mb-3">
-        <div class="d-flex align-items-center justify-content-between px-2 mb-1">
+        <div class="d-flex align-items-center justify-content-between px-2 mb-2">
           <span class="small fw-bold text-muted"><i class="bi bi-sort-alpha-down me-1"></i>Lọc theo chữ cái đầu:</span>
-          <span class="badge bg-primary-subtle text-primary">${this.currentLetter === 'ALL' ? 'Tất cả chữ cái' : `Chữ cái: ${this.currentLetter}`}</span>
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-primary-subtle text-primary fw-bold">
+              ${this.currentLetter === 'ALL' ? 'Tất cả chữ cái' : `Chữ cái: ${this.currentLetter}`}
+            </span>
+            <span class="badge bg-secondary-subtle text-secondary">
+              ${words.length} từ vựng
+            </span>
+          </div>
         </div>
         <div class="alphabet-bar-container">
           ${alphabetList.map(char => `
-            <button class="btn-alpha ${this.currentLetter === char ? 'active' : ''}" data-letter="${char}">
+            <button class="btn-alpha ${this.currentLetter === char ? 'active' : ''}" data-letter="${char}" title="Lọc từ vựng bắt đầu bằng chữ ${char}">
               ${char}
             </button>
           `).join('')}
@@ -604,9 +611,9 @@ class App {
         </div>
 
         <!-- Search Input -->
-        <div class="input-group" style="width: 260px;">
+        <div class="input-group" style="width: 280px;">
           <span class="input-group-text bg-body-tertiary border-end-0"><i class="bi bi-search"></i></span>
-          <input type="text" class="form-control form-control-gamify border-start-0" id="vocab-search-field" placeholder="Tìm kiếm từ vựng..." value="${this.searchQuery}">
+          <input type="text" class="form-control form-control-gamify border-start-0" id="vocab-search-field" placeholder="Tìm kiếm từ hoặc nghĩa..." value="${this.searchQuery}">
         </div>
       </div>
 
@@ -615,8 +622,15 @@ class App {
         ${words.length === 0 ? `
           <div class="col-12 text-center py-5">
             <i class="bi bi-inbox display-3 text-muted"></i>
-            <h5 class="mt-3 text-secondary">Không tìm thấy từ vựng nào khớp với bộ lọc "${this.currentLetter}"</h5>
-            <button class="btn btn-sm btn-outline-primary rounded-pill mt-2" id="btn-reset-filters">Đặt lại bộ lọc</button>
+            <h5 class="mt-3 text-secondary">Không tìm thấy từ vựng nào khớp với chữ cái "${this.currentLetter}" ở cấp độ ${this.currentLevel}</h5>
+            <div class="d-flex justify-content-center gap-2 mt-3">
+              <button class="btn btn-sm btn-primary rounded-pill px-3" id="btn-show-all-levels">
+                <i class="bi bi-layers me-1"></i>Xem chữ "${this.currentLetter}" ở tất cả cấp độ (A1–B1)
+              </button>
+              <button class="btn btn-sm btn-outline-secondary rounded-pill px-3" id="btn-reset-filters">
+                <i class="bi bi-arrow-clockwise me-1"></i>Đặt lại bộ lọc
+              </button>
+            </div>
           </div>
         ` : words.map(item => `
           <div class="col-md-6 col-lg-4">
@@ -666,6 +680,12 @@ class App {
         this.currentLevel = btn.getAttribute('data-level');
         this.renderVocabView();
       });
+    });
+
+    // 1.b Switch to All Levels button
+    document.getElementById('btn-show-all-levels')?.addEventListener('click', () => {
+      this.currentLevel = 'ALL';
+      this.renderVocabView();
     });
 
     // 2. Alphabet Filter (A-Z)
